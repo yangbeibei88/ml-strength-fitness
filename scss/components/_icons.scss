@@ -89,3 +89,12 @@
   @extend %icon-shared;
   content: '\f05a';
 }
+
+.quote-left::before {
+  @extend %icon-shared;
+  content: '\f10d';
+}
+.quote-right::before {
+  @extend %icon-shared;
+  content: '\f10e';
+}

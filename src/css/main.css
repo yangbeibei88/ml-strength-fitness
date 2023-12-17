@@ -368,7 +368,7 @@ details[open] summary {
 }
 
 /* ICONS */
-.info::before, .arrow-right::after, .filter::before, .search::before, .submit::after, .keyboard::before, .write::before, .question::before, .user::before, .window-close::before, .navbar-hamburger-close::before, .navbar-hamburger-toggler::before, .openhours::before, .email::before, .phone::before, .address::before {
+.quote-right::before, .quote-left::before, .info::before, .arrow-right::after, .filter::before, .search::before, .submit::after, .keyboard::before, .write::before, .question::before, .user::before, .window-close::before, .navbar-hamburger-close::before, .navbar-hamburger-toggler::before, .openhours::before, .email::before, .phone::before, .address::before {
   display: inline-block;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -443,6 +443,14 @@ details[open] summary {
 
 .info::before {
   content: "\f05a";
+}
+
+.quote-left::before {
+  content: "\f10d";
+}
+
+.quote-right::before {
+  content: "\f10e";
 }
 
 /* BUTTONS */
