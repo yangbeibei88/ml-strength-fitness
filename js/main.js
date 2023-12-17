@@ -372,7 +372,7 @@ async function displayClubDetails() {
     "#club-contact .contact-info .club-contact-details"
   );
   clubContactDetails.innerHTML = `
-  <h3>ML Strength - ${currentClub.club_name}</h3>
+  <h2>ML Strength - ${currentClub.club_name}</h2>
   <ul class="unstyled">
     <li class="address">${Object.values(currentClub.club_location).join(
       " "
@@ -769,14 +769,14 @@ function helpModal() {
   });
 }
 
-function appendNavHeader() {
-  headerEl = document.createElement("header");
-  headerEl.className = "navbar";
-  headerEl.id = "navbar";
-  headerEl.innerHTML = `
+function appendNavBar() {
+  navEl = document.createElement("nav");
+  navEl.className = "navbar";
+  navEl.id = "navbar";
+  navEl.innerHTML = `
   <a href="/"><img src="/logo/logo.png"
   alt="logo" class="header-logo"></a>
-<nav class="navLinksContainer">
+<div class="navLinksContainer">
 <ul id="navLinks">
   <li><a href="/html/clubs.html" class="nav-link">Clubs</a>
   </li>
@@ -789,7 +789,7 @@ function appendNavHeader() {
       href="/html/contact.html" class="nav-link">Contact</a>
   </li>
 </ul>
-</nav>
+</div>
 <button
 class="mobile-nav-menu navbar-hamburger-toggler"
 type="button"
@@ -797,8 +797,8 @@ aria-label="navigation-toggler"
 id="mobile-nav-toggler"></button>
   `;
 
-  pageBody.insertAdjacentElement("afterbegin", headerEl);
-  console.log("Header inserted!");
+  pageBody.insertAdjacentElement("afterbegin", navEl);
+  console.log("Navbar inserted!");
 }
 
 function appendFooter() {
@@ -857,7 +857,7 @@ function mobileMenu() {
 }
 
 function init() {
-  appendNavHeader();
+  appendNavBar();
   highlightActiveNavTab();
   switch (currentPage) {
     case "/":
