@@ -866,6 +866,7 @@ function init() {
       displayPopularClasses();
       break;
     case "/html/clubs.html":
+    case "/html/clubs":
       displayClubs();
       break;
     case "/html/club.html":
@@ -873,6 +874,7 @@ function init() {
       displayClubTimetable();
       break;
     case "/html/classes.html":
+    case "/html/classes":
       displayClasses();
       break;
     case "/html/class.html":
@@ -880,6 +882,7 @@ function init() {
       displayClassTimetable();
       break;
     case "/html/contact.html":
+    case "/html/contact":
       contactFormValidation();
       helpModal();
       break;
