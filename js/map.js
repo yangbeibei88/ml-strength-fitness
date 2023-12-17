@@ -40,7 +40,10 @@ async function addClubsMarker() {
     layer.bindPopup(popupContent);
   }
 
-  if (window.location.pathname === "/html/clubs.html") {
+  if (
+    window.location.pathname === "/html/clubs.html" ||
+    window.location.pathname === "/html/clubs"
+  ) {
     // in clubs.html, display all clubs'markers, without popup
     L.geoJSON(clubsGeoJsonData, {
       onEachFeature: onEachFeature,
