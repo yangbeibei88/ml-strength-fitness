@@ -1,0 +1,118 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+          "geometry": {
+              "type": "Point",
+              "coordinates": [153.0245821948080,
+              -27.4699990927573
+              ]
+          },
+          "type": "Feature",
+          "properties": {
+              "category": "gym",
+              "hours": "7am - 7pm",
+              "name": "ML Strength - Brisbane City",
+              "phone": "(07) 2666 0000",
+              "storeid": "1001",
+              "club_location": {
+                "club_add1": "Shop 8",
+                "club_add2": "99 Queen St",
+                "club_suburb": "Brisbane City",
+                "club_state": "QLD",
+                "club_postcode": "4000"
+             }
+          }
+      },
+      {
+          "geometry": {
+              "type": "Point",
+              "coordinates": [152.9864438101510,-27.4463416216446
+              ]
+          },
+          "type": "Feature",
+          "properties": {
+              "category": "gym",
+              "hours": "7am - 7pm",
+              "name": "ML Strength - Ashgrove",
+              "phone": "(07) 2666 0022",
+              "storeid": "1002",
+              "club_location": {
+                "club_add1": "Shop 1",
+                "club_add2": "338 Waterworks Road",
+                "club_suburb": "Ashgrove",
+                "club_state": "QLD",
+                "club_postcode": "4060"
+             }
+          }
+      },
+      {
+          "geometry": {
+              "type": "Point",
+              "coordinates": [153.0318918064140,
+                -27.3861909192985
+              ]
+          },
+          "type": "Feature",
+          "properties": {
+              "category": "gym",
+              "hours": "7am - 7pm",
+              "name": "ML Strength - Chermside",
+              "phone": "(07) 2666 0033",
+              "storeid": "1003",
+              "club_location": {
+                "club_add1": "Shop 2",
+                "club_add2": "392 Hamilton Road",
+                "club_suburb": "Chermside",
+                "club_state": "QLD",
+                "club_postcode": "4032"
+             }
+          }
+      },
+      {
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+              152.9886637389890,-27.5225572006381
+              ]
+          },
+          "type": "Feature",
+          "properties": {
+              "category": "gym",
+              "hours": "7am - 7pm",
+              "name": "ML Strength - Graceville",
+              "phone": "(07) 2666 0044",
+              "storeid": "1004",
+              "club_location": {
+                "club_add1": "Shop 10",
+                "club_add2": "164 Graceville Avenue",
+                "club_suburb": "Graceville",
+                "club_state": "QLD",
+                "club_postcode": "4075"
+             }
+          }
+      },
+      {
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+              152.9173851543330,-27.5448876984233
+              ]
+          },
+          "type": "Feature",
+          "properties": {
+              "category": "gym",
+              "hours": "7am - 7pm",
+              "name": "ML Strength - Westlake",
+              "phone": "(07) 2666 0055",
+              "storeid": "1005",
+              "club_location": {
+                "club_add1": "Shop 5",
+                "club_add2": "180 Westlake Dr",
+                "club_suburb": "Westlake",
+                "club_state": "QLD",
+                "club_postcode": "4074"
+             }
+          }
+      }
+  ]
+}

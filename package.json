@@ -1,0 +1,33 @@
+{
+  "name": "at3_website_yang_474326484",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass scss:src/css",
+    "sass:watch": "sass --watch scss:src/css",
+    "postcss:build": "postcss src/css/main.css -u autoprefixer -o css/main.css",
+    "postcss:build-fa": "postcss src/css/fontawesome.css -u autoprefixer -o css/fontawesome.css",
+    "postcss:build-reset": "postcss src/css/reset.css -u autoprefixer -o css/reset.css",
+    "postcss:watch": "postcss src/css/main.css -u autoprefixer -o css/main.css --watch",
+    "sasscss": "npm-run-all --parallel sass:watch postcss:watch"
+  },
+  "keywords": [],
+  "author": "Beibei Yang",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.32",
+    "postcss-cli": "^10.1.0",
+    "sass": "^1.69.5"
+  },
+  "browserslist": [
+    "last 4 versions"
+  ],
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "@googlemaps/js-api-loader": "^1.16.2",
+    "leaflet": "^1.9.4"
+  }
+}

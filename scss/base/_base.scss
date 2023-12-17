@@ -1,0 +1,53 @@
+@use '../abstracts' as *;
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  font-family: $font-titillium, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: $color-midnightBlue;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: $font-saira-sc, sans-serif;
+  font-weight: 700;
+}
+
+p, blockquote {
+  font-family: $font-titillium, sans-serif;
+  font-size: 1.8rem;
+  margin: 1.2rem 0;
+}
+
+form select, form input, textarea {
+  font-family: $font-titillium, sans-serif;
+  font-size: 1.5rem;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+li {
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+  color: $color-midnightBlue;
+  &:is(:hover) {
+    color: $color-redorange;
+  }
+}
+
+input,select,textarea {
+  border: 1px solid $color-midnightBlue;
+}
+
+
+

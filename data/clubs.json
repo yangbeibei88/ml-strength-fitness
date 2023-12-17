@@ -1,0 +1,127 @@
+[
+   {
+     "club_id": 1001,
+     "club_name": "Brisbane City",
+     "club_location": {
+        "club_add1": "Shop 8",
+        "club_add2": "99 Queen St",
+        "club_suburb": "Brisbane City",
+        "club_state": "QLD",
+        "club_postcode": 4000
+     },
+     "club_phone": "(07) 2666 0000",
+     "club_email": "brisbanecity@mlstrength.com.au",
+     "club_geo_coordinate": {
+        "club_latitude": "-27.4699990927573",
+        "club_longitude": "153.0245821948080"
+     },
+     "club_thumbnail_path": "../img/clubs/thumbnails/brisbane-city-ml-strength.jpg",
+     "club_banner_path": "../img/clubs/headers/brisbane-city-ml-strength-1600.jpg",
+     "club_galleryimage_path": [
+        "../img/clubs/gallery/brisbane-city-1.jpg",
+        "../img/clubs/gallery/brisbane-city-2.jpg",
+        "../img/clubs/gallery/brisbane-city-3.jpg",
+        "../img/clubs/gallery/brisbane-city-4.jpg"
+     ]
+  },
+   {
+     "club_id": 1002,
+     "club_name": "Ashgrove",
+     "club_location": {
+        "club_add1": "Shop 1",
+        "club_add2": "338 Waterworks Road",
+        "club_suburb": "Ashgrove",
+        "club_state": "QLD",
+        "club_postcode": 4060
+     },
+     "club_phone": "(07) 2666 0022",
+     "club_email": "ashgrove@mlstrength.com.au",
+     "club_geo_coordinate": {
+        "club_latitude": "-27.4463416216446",
+        "club_longitude": "152.9864438101510"
+     },
+     "club_thumbnail_path": "../img/clubs/thumbnails/ashgrove-ml-strength.jpg",
+     "club_banner_path": "../img/clubs/headers/ashgrove-header-1600.jpg",
+     "club_galleryimage_path": [
+        "../img/clubs/gallery/ashgrove-1.jpg",
+        "../img/clubs/gallery/ashgrove-2.jpg",
+        "../img/clubs/gallery/ashgrove-3.jpg",
+        ""
+     ]
+  },
+   {
+     "club_id": 1003,
+     "club_name": "Chermside",
+     "club_location": {
+        "club_add1": "Shop 2",
+        "club_add2": "392 Hamilton Road",
+        "club_suburb": "Chermside",
+        "club_state": "QLD",
+        "club_postcode": 4032
+     },
+     "club_phone": "(07) 2666 0033",
+     "club_email": "chermside@mlstrength.com.au",
+     "club_geo_coordinate": {
+        "club_latitude": "-27.3861909192985",
+        "club_longitude": "153.0318918064140"
+     },
+     "club_thumbnail_path": "../img/clubs/thumbnails/chermside-ml-strength.jpg",
+     "club_banner_path": "../img/clubs/headers/chermside-header-1600.jpeg",
+     "club_galleryimage_path": [
+        "../img/clubs/gallery/chermside-1.jpg",
+        "../img/clubs/gallery/chermside-2.jpg",
+        "../img/clubs/gallery/chermside-3.jpg",
+        ""
+     ]
+  },
+   {
+     "club_id": 1004,
+     "club_name": "Graceville",
+     "club_location": {
+        "club_add1": "Shop 10",
+        "club_add2": "164 Graceville Avenue",
+        "club_suburb": "Graceville",
+        "club_state": "QLD",
+        "club_postcode": 4075
+     },
+     "club_phone": "(07) 2666 0044",
+     "club_email": "graceville@mlstrength.com.au",
+     "club_geo_coordinate": {
+        "club_latitude": "-27.5225572006381",
+        "club_longitude": "152.9886637389890"
+     },
+     "club_thumbnail_path": "../img/clubs/thumbnails/graceville-ml-strength.jpg",
+     "club_banner_path": "../img/clubs/headers/graceville-header-1600.jpeg",
+     "club_galleryimage_path": [
+        "../img/clubs/gallery/graceville-1.jpg",
+        "../img/clubs/gallery/graceville-2.jpg",
+        "../img/clubs/gallery/graceville-3.jpg",
+        ""
+     ]
+  },
+   {
+     "club_id": 1005,
+     "club_name": "Westlake",
+     "club_location": {
+        "club_add1": "Shop 5",
+        "club_add2": "180 Westlake Dr",
+        "club_suburb": "Westlake",
+        "club_state": "QLD",
+        "club_postcode": 4074
+     },
+     "club_phone": "(07) 2666 0055",
+     "club_email": "westlake@mlstrength.com.au",
+     "club_geo_coordinate": {
+        "club_latitude": "-27.5448876984233",
+        "club_longitude": "152.9173851543330"
+     },
+     "club_thumbnail_path": "../img/clubs/thumbnails/westlake-ml-strength.jpg",
+     "club_banner_path": "../img/clubs/headers/westlake-header-1600.jpeg",
+     "club_galleryimage_path": [
+        "../img/clubs/gallery/westlake-1.jpg",
+        "../img/clubs/gallery/westlake-2.jpg",
+        "../img/clubs/gallery/westlake-3.jpg",
+        ""
+     ]
+  }
+  ]

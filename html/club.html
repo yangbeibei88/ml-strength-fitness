@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon"
+    href="/favicon.ico">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet"
+    href="../css/fontawesome.css">
+  <link rel="stylesheet"
+    href="../assets/leaflet/leaflet.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <script src="../assets/leaflet/leaflet.js"
+    defer></script>
+
+  <script src="../js/map.js" defer></script>
+  <script src="../js/main.js" defer></script>
+  <title>Club - ML Strength
+  </title>
+</head>
+
+<body>
+  <main id="club-detail">
+    <section id="club-detail-hero"
+      class="page-header-banner">
+    </section>
+    <section id="club-contact">
+      <div class="container">
+        <div class="grid-2col">
+          <div class="contact-info">
+            <div class="club-contact-details">
+            </div>
+            <table class="staffed-hours">
+              <caption>Staffed Hours</caption>
+              <tr>
+                <th scope="row">Monday</th>
+                <td>07:00 am - 07:00 pm</td>
+              </tr>
+              <tr>
+                <th scope="row">Tuesday</th>
+                <td>07:00 am - 07:00 pm</td>
+              </tr>
+              <tr>
+                <th scope="row">Wednesday</th>
+                <td>07:00 am - 07:00 pm</td>
+              </tr>
+              <tr>
+                <th scope="row">Thursday</th>
+                <td>07:00 am - 07:00 pm</td>
+              </tr>
+              <tr>
+                <th scope="row">Friday</th>
+                <td>07:00 am - 07:00 pm</td>
+              </tr>
+              <tr>
+                <th scope="row">Saturday</th>
+                <td>07:00 am - 07:00 pm</td>
+              </tr>
+              <tr>
+                <th scope="row">Sunday</th>
+                <td>07:00 am - 07:00 pm</td>
+              </tr>
+            </table>
+          </div>
+          <div id="all-clubs-map"
+            class="club-map">
+          </div>
+        </div>
+        <div class="club-gallery-container">
+        </div>
+      </div>
+    </section>
+    <section id="club-facilities"
+      class="bg-redOrange text-white">
+      <div class="container">
+        <h2 class="section-title">Club
+          Facilities</h2>
+        <div class="grid-3col">
+          <div class="amenities">
+            <h3>Amenities</h3>
+            <ul class="styled-list">
+              <li>24-hour Access</li>
+              <li>Private Change Room</li>
+              <li>Private Showers</li>
+              <li>Vending Machine</li>
+              <li>Free Parking</li>
+            </ul>
+          </div>
+          <div class="equipment">
+            <h3>Equipment</h3>
+            <ul class="styled-list">
+              <li>Cardio Equipment</li>
+              <li>Weights</li>
+              <li>Functional Training Zone</li>
+            </ul>
+          </div>
+          <div class="services">
+            <h3>Servies</h3>
+            <ul class="styled-list">
+              <li>Personal Training</li>
+              <li>Circuit Training</li>
+              <li>Group Classes</li>
+              <li>Boxing</li>
+              <li>Karate</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="club-timetable">
+      <div class="container">
+        <h2 class="section-title">Timetable
+        </h2>
+        <div class="grid-2col">
+          <div class="filter-group">
+            <label
+              for="club-timetable-classes-filter-dropdown"
+              class="ff-icon filter"></label>
+            <select
+              name="club-timetable-classes-filter-dropdown"
+              id="club-timetable-classes-filter-dropdown">
+            </select>
+          </div>
+          <div class="filter-group">
+            <label
+              for="club-timetable-search-class"
+              class="ff-icon search"></label>
+            <input type="text"
+              name="club-timetable-search-class"
+              id="club-timetable-search-class"
+              placeholder="search a class...">
+          </div>
+        </div>
+        <table id="timetable-single-club">
+          <thead>
+            <tr>
+              <th scope="col">Date</th>
+              <th scope="col">Time</th>
+              <th scope="col">Duration</th>
+              <th scope="col">Type</th>
+              <th scope="col">Class</th>
+              <th scope="col">Description</th>
+              <th scope="col">Trainer</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+
+      </div>
+
+
+      </div>
+    </section>
+
+  </main>
+</body>
+
+</html>

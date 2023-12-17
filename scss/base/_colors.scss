@@ -1,0 +1,14 @@
+@use "sass:map";
+@use '../abstracts' as *;
+
+/* BRAND COLORS */ 
+$brand-colors: ('redOrange': $color-redorange, 'bananaYellow': $color-bananaYellow, 'burgundy': $color-burgundy, 'midnightBlue': $color-midnightBlue, 'slateBlue': $color-slateBlue, 'silver': $color-silver, 'lightGrey': $color-lightGrey, 'deepSkyBlue': $color-deepSkyBlue, 'darkOrange': $color-darkOrange, 'lightSeaGreen': $color-lightSeaGreen, 'white': $color-white);
+
+@each $colorname, $colorcode in $brand-colors {
+  .bg-#{$colorname} {
+    background-color: $colorcode;
+  }
+  .text-#{$colorname} {
+    color: $colorcode;
+  }
+}

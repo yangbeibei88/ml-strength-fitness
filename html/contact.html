@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon"
+    href="/favicon.ico">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet"
+    href="../css/fontawesome.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <script src="../js/main.js" defer></script>
+  <title>Contact us - ML Strength</title>
+</head>
+
+<body>
+  <main id="contact">
+    <section id="contact-hero"
+      class="page-header-banner">
+      <div class="page-header-banner-container">
+        <img
+          src="../img/classes/bodyattack-q319-lesmills-fia-webassets_cf-dt-ba.jpg"
+          alt=""
+          class="page-header-banner-bg-image">
+        <div
+          class="page-header-banner-content-heading">
+          <h1>Contact Us</h1>
+          <p>Whether you have a question about
+            membership, need help with your
+            workout routine, our team is always
+            happy to chat and offer guidance.</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact-content">
+      <div class="container">
+        <div class="grid-2col">
+          <div class="contact-form-section">
+            <h5>Fill out the form below to get in
+              touch.</h5>
+            <form id="contact-form"
+              class="contact-form" novalidate>
+              <div
+                class="form-control club-location">
+                <label for="club-location"
+                  class="required">Club
+                  Location</label>
+                <!-- <i
+                  class="fas fa-location-dot"></i> -->
+                <div class="ff-wrapper">
+                  <span
+                    class="ff-icon address"></span>
+                  <select name="club-location"
+                    id="clublocation" required>
+                    <option value="" selected>
+                      --Selection Your Club
+                      Location--
+                    </option>
+                    <option value="brisbane-city">
+                      Brisbane City</option>
+                    <option value="ashgrove">
+                      Ashgrove
+                    </option>
+                    <option value="chermside">
+                      Chermside</option>
+                    <option value="graceville">
+                      Graceville</option>
+                    <option value="westlake">
+                      Westlake
+                    </option>
+                  </select>
+                </div>
+                <span class="valid-icon"></span>
+                <div class="form-field-error"
+                  aria-live="polite"></div>
+              </div>
+              <div
+                class="form-control first-name">
+                <label for="first-name"
+                  class="required">First
+                  Name</label>
+                <div class="ff-wrapper">
+                  <span
+                    class="ff-icon user"></span>
+                  <input type="text"
+                    name="first-name"
+                    id="firstname"
+                    placeholder="First Name"
+                    required minlength="2"
+                    maxlength="30">
+                </div>
+                <span class="valid-icon"></span>
+                <div class="form-field-error"
+                  aria-live="polite"></div>
+              </div>
+              <div class="form-control last-name">
+                <label for="last-name"
+                  class="required">Last
+                  Name</label>
+                <!-- <i class="fas fa-user"></i> -->
+                <div class="ff-wrapper">
+                  <span
+                    class="ff-icon user"></span>
+                  <input type="text"
+                    name="last-name" id="lastname"
+                    placeholder="Last Name"
+                    required minlength="2"
+                    maxlength="30">
+                </div>
+                <span class="valid-icon"></span>
+                <div class="form-field-error"
+                  aria-live="polite"></div>
+              </div>
+              <div
+                class="form-control phone-number">
+                <label for="phone-number"
+                  class="required">Phone
+                  Number</label>
+                <div class="ff-wrapper">
+                  <span
+                    class="ff-icon phone"></span>
+                  <input type="tel"
+                    name="phone-number"
+                    id="phonenumber"
+                    placeholder="##########"
+                    required>
+                </div>
+                <span class="valid-icon"></span>
+                <div class="formfield-tooltip">
+                  Enter 10 digits without
+                  spaces. E.g. 0755550000,
+                  0421111999</div>
+                <div class="form-field-error"
+                  aria-live="polite"></div>
+              </div>
+              <div
+                class="form-control emailaddress">
+                <label for="emailaddress"
+                  class="required">Email
+                  Address</label>
+                <div class="ff-wrapper">
+                  <span
+                    class="ff-icon email"></span>
+                  <input type="email"
+                    name="emailaddress"
+                    id="emailaddress"
+                    placeholder="Email Address"
+                    required minlength="8">
+                </div>
+                <span class="valid-icon"></span>
+                <div class="form-field-error"
+                  aria-live="polite"></div>
+              </div>
+              <div
+                class="form-control enquiry-type">
+                <label for="enquiry-type"
+                  class="required">Enquiry
+                  Type</label>
+                <div class="ff-wrapper">
+                  <span
+                    class="ff-icon question"></span>
+                  <select name="enquiry-type"
+                    id="enquirytype" required>
+                    <option value="" selected>
+                      --Enquiry Type--</option>
+                    <option value="membership">
+                      Membership</option>
+                    <option
+                      value="club-facilities">
+                      Lost Property</option>
+                    <option
+                      value="payment-billing">
+                      Payment And Billing</option>
+                    <option
+                      value="personal-training">
+                      Personal Training</option>
+                    <option value="Others">Others
+                    </option>
+                  </select>
+                </div>
+                <span class="valid-icon"></span>
+                <div class="form-field-error"
+                  aria-live="polite"></div>
+              </div>
+              <div class="form-control subject">
+                <label
+                  for="subject">Subject</label>
+                <div class="ff-wrapper">
+                  <span
+                    class="ff-icon write"></span>
+                  <input type="text"
+                    name="subject" id="subject"
+                    placeholder="Subject"
+                    maxlength="30">
+                </div>
+                <span class="valid-icon"></span>
+                <div class="form-field-error"
+                  aria-live="polite"></div>
+              </div>
+              <div class="form-control message">
+                <label for="message"
+                  class="required">Message</label>
+                <div class="ff-wrapper">
+                  <span
+                    class="ff-icon keyboard"></span>
+                  <textarea name="message"
+                    id="message" rows="15"
+                    placeholder="type in your message"
+                    required maxlength="200"
+                    minlength="10"></textarea>
+                </div>
+                <span class="valid-icon"></span>
+                <div class="form-field-error"
+                  aria-live="polite"></div>
+              </div>
+              <div
+                class="form-control agree-privacy-checkbox">
+                <div class="ff-wrapper">
+                  <input type="checkbox"
+                    name="agree-privacy-checkbox"
+                    id="agree-privacy-checkbox"
+                    role="checkbox" required>
+                </div>
+                <div>
+                  <label
+                    for="agree-privacy-checkbox"
+                    class="checkbox-text">I
+                    have read and agreed to the
+                    privacy policy.</label>
+                  <div class="form-field-error"
+                    aria-live="polite"></div>
+                </div>
+              </div>
+              <div
+                class="form-control consent-marketing">
+                <div class="ff-wrapper">
+                  <input type="checkbox"
+                    name="consent-marketing"
+                    id="consent-marketing"
+                    role="checkbox" required>
+                </div>
+                <div>
+                  <label for="consent-marketing"
+                    class="checkbox-text">I
+                    consent that ML Strength may
+                    contact me via email, SMS or
+                    telephone for marketing
+                    purposes.</label>
+                  <div class="form-field-error"
+                    aria-live="polite"></div>
+                </div>
+
+              </div>
+              <button type="submit"
+                class="btn btn-submit submit"
+                id="contactFormSubmit">Submit</button>
+            </form>
+          </div>
+          <div class="contact-info">
+            <h3>ML Strength Headquarter</h3>
+            <ul class="unstyled">
+              <li class="address">Shop 8, 99 Queen
+                St,
+                Brisbane
+                QLD 4000</li>
+              <li class="phone"><a
+                  href="0726660000">(07)
+                  2666 0000</a></li>
+            </ul>
+            <div class="button-group">
+              <a href="../html/clubs.html"
+                class="btn btn-main find-club arrow-right">Find
+                Your
+                Club</a>
+              <a href="../html/classes.html"
+                class="btn btn-main find-classes arrow-right">Find
+                Our
+                Classes</a>
+              <span><a href="#" id="helpLink">Need
+                  Help?</a></span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="help-modal">
+      <div class="modal-container">
+        <div class="modal-head">
+          <button id="modal-close"
+            class="btn btn-circle window-close"></button>
+          <h3 class="info">Help Information</h3>
+        </div>
+        <div class="modal-content">
+          <div class="video-player">
+            <video controls width="560"
+              height="315">
+              <source
+                src="../video/gym-training.mp4"
+                type="video/mp4">
+            </video>
+          </div>
+
+          <details
+            class="modal-caption container">
+            <summary class="caption-title">
+              24/7 FAQ
+            </summary>
+            <div class="modal-detailed-content">
+              <ul class="styled-list">
+                <li>How do I access the gym
+                  outside
+                  of staffed hours?
+                  <p>Members are provided with a
+                    secure access card or key fob,
+                    granting them entry at any
+                    time,
+                    even when the gym is not
+                    staffed.</p>
+                </li>
+                <li>What amenities does the gym
+                  offer?
+                  <p>Our gym is fully equipped
+                    with
+                    a range of fitness equipment,
+                    including cardio machines,
+                    strength training equipment,
+                    and
+                    free weights. We also provide
+                    locker rooms, showers, and
+                    vending machines for your
+                    convenience.</p>
+                </li>
+              </ul>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

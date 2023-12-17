@@ -1,0 +1,58 @@
+@use '../abstracts' as *;
+/* CLUB DETAIL PAGE */
+#club-contact {
+  table.staffed-hours {
+    text-align: left;
+    border-spacing: 1rem!important;
+    margin-top: 1rem;
+    tr {
+      border-bottom: $color-redorange 1px dotted;
+    }
+    th {
+      padding-right: 1.5rem;
+    }
+    caption {
+      text-align: left;
+      font-size: 2rem;
+      font-weight:700;
+    }
+  }
+  .club-gallery-container {
+    background-color: $color-redorange;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 1rem;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+
+#club-timetable {
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    th {
+      background-color: $color-redorange;
+      color: $color-white;
+      border: $color-silver 1px solid;
+      padding: 0.5rem 1rem;
+    }
+    td {
+      padding: 0.5rem 1rem;
+      border: $color-silver 1px solid;
+    }
+    tr:nth-child(even) {
+      background-color: $color-lightGrey;
+    }
+  }
+
+
+  select, input {
+    border: 1px solid $color-midnightBlue;
+    width: 100%;
+    padding-left: 3rem;
+    height: 3rem;
+  }
+}

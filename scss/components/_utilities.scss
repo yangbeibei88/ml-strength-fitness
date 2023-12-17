@@ -1,0 +1,145 @@
+@use '../abstracts' as *;
+
+/* UTILITIES */ 
+.section-title, .text-center {
+  text-align: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.page-header-banner {
+  &-container {
+    position: relative;
+    height: 300px;
+  }
+
+  &-bg-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  &-content-heading {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: $color-white;
+    @include breakpoint(max, medium) {
+      width: 80%;
+    }
+  }
+}
+
+.blockquote-card {
+  display: block;
+  width: 100%;
+  height: fit-content;
+  background-color: $color-lightGrey;
+  border-left: 5px solid $color-slateBlue;
+  color: $color-midnightBlue;
+  padding: 1rem 1.5rem;
+}
+
+input[type="checkbox"] {
+  appearance: checkbox;
+}
+select {
+  appearance: menulist;
+}
+
+.current-active {
+  background-color: $color-redorange!important;
+}
+
+// styling timetables mobile responsive
+#club-timetable, #class-timetable {
+  table {
+    @include breakpoint(max, small) {
+      border: 0;
+    }
+    th {
+      @include breakpoint(max, small) {
+        border: none;
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+      }
+    }
+    tr {
+      @include breakpoint(max, small) {
+        border-bottom: 3px solid $color-lightGrey;
+        display: block;
+        margin-bottom: 1rem;
+      }
+    }
+    td {
+      @include breakpoint(max, small) {
+        border-bottom: 1px solid $color-silver;
+        display: block;
+        text-align: right;
+      }
+      &::before {
+        @include breakpoint(max, small) {
+          content: attr(data-label);
+          float: left;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+      }
+    }
+    thead tr {
+      @include breakpoint(max, small) {
+        border-bottom: 0;
+      }
+    }
+  }
+}
+
+.ff-icon {
+  position: absolute;
+}
+
+.filter-group {
+  position: relative;
+  display: flex;
+}
+
+.styled-list {
+  list-style: disc;
+  list-style-position: inside;
+}
+
+details {
+  border: 1px solid $color-silver;
+  border-radius: 0.5rem;
+  padding: 1rem;
+
+}
+
+summary {
+  display: block;
+  font-weight: bold;
+  width: 100%;
+}
+
+details[open] {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+details[open] summary {
+  border-bottom: 1px solid $color-silver;
+  margin-bottom: 1rem;
+}

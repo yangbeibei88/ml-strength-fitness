@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon"
+    href="/favicon.ico">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet"
+    href="../css/fontawesome.css">
+  <link rel="stylesheet"
+    href="../assets/leaflet/leaflet.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <script src="../assets/leaflet/leaflet.js"
+    defer></script>
+  <script src="../js/main.js" defer></script>
+  <script src="../js/map.js" defer></script>
+  <title>All Training Clubs - ML Strength</title>
+</head>
+
+<body>
+  <main id="clubs">
+    <div class="location-search-view-wrapper">
+      <div class="location-search-view">
+        <h1 class="text-center">ML Strength
+          Clubs
+        </h1>
+        <form id="club-search">
+          <input type="text" name="search-club"
+            id="search-club"
+            placeholder="enter postcode or suburb">
+          <button type="submit"
+            class="btn btn-main search"></button>
+        </form>
+        <div class="viewBtnGroup">
+          <a href="#locationList"
+            class="btn btn-main">
+            <div class="clubLinks"
+              onclick="openView(event,'List View')"
+              id="defaultOpen">List View</div>
+          </a>
+          <a href="#all-clubs-map"
+            class="btn btn-main">
+            <div class="clubLinks"
+              onclick="openView(event,'Map View')">
+              Map
+              View</div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="locations-map-wrapper">
+      <section class="location-list-content">
+        <div class="location-list"
+          id="locationList">
+        </div>
+      </section>
+      <section id="all-clubs-map"></section>
+    </div>
+  </main>
+</body>
+
+</html>

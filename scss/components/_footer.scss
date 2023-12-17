@@ -1,0 +1,12 @@
+@use '../abstracts' as *;
+
+footer {
+  display: block;
+  text-align: center;
+  padding: 2rem 0;
+
+  p {
+    font-size: 1.2rem!important;
+    margin: 1rem 0;
+  }
+}

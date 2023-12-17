@@ -1,0 +1,101 @@
+﻿date,start_time,end_time,duration,category,class_id,class,description,trainer,club_id,club_name
+2024-02-10,08:00:00,08:45:00,45,Cardio,101,BodyAttack,High-energy cardio with athletic movements.,James,1001,Brisbane City
+2024-03-15,10:30:00,11:30:00,60,Cardio,102,BodyCombat,Martial arts-inspired workout for total body.,Sarah,1001,Brisbane City
+2024-04-20,14:15:00,15:15:00,60,Strength,103,BodyPump,Barbell workout to music for full-body strength.,Alex,1001,Brisbane City
+2024-05-12,16:45:00,17:30:00,45,Cardio,104,BodyStep,"Simple, athletic movements on a step platform.",Laura,1001,Brisbane City
+2024-06-18,11:00:00,11:45:00,45,Flexibility,105,BodyBalance,Yoga and Pilates-based moves for balance.,Chris,1001,Brisbane City
+2024-07-22,19:30:00,20:30:00,60,Cycle,106,RPM,Indoor cycling with simulated hill climbs.,Emma,1001,Brisbane City
+2024-08-05,17:00:00,18:00:00,60,Cycle,107,Cycle,Traditional cycling class with varied intensity.,Michael,1001,Brisbane City
+2024-09-15,13:45:00,14:30:00,45,Cardio,108,Aqua Fit,Water-based workout for cardiovascular fitness.,Olivia,1001,Brisbane City
+2024-10-20,09:30:00,10:30:00,60,Strength,109,Boxing,Boxing-inspired workout for strength.,James,1001,Brisbane City
+2024-11-12,12:00:00,12:45:00,45,Cardio,110,Step Moves,Step-based aerobic workout with creative moves.,Sarah,1001,Brisbane City
+2024-12-22,16:30:00,17:30:00,60,Cardio,111,Cardio Circuit,Circuit-style workout for overall fitness.,Alex,1001,Brisbane City
+2025-01-15,18:15:00,19:15:00,60,Cardio,112,Hi-Lo Fat Burner,High-low impact aerobics for fat burning.,Laura,1001,Brisbane City
+2025-02-10,10:45:00,11:30:00,45,Strength,113,Sculpt Combo,Combination of strength and sculpting exercises.,Chris,1001,Brisbane City
+2025-03-18,15:30:00,16:30:00,60,Strength,114,ABT,"Abs, buns, and thighs focused strength class.",Michael,1001,Brisbane City
+2025-04-20,11:45:00,12:45:00,60,Dance,115,BodyJam,Dance-based workout with various music styles.,Olivia,1001,Brisbane City
+2025-05-15,07:30:00,08:30:00,60,Flexibility,116,Pilates,Core-focused workout for flexibility and strength.,Emma,1001,Brisbane City
+2025-06-22,14:00:00,15:00:00,60,Flexibility,117,Tai Chi,Ancient Chinese martial art for relaxation.,James,1001,Brisbane City
+2025-07-10,16:45:00,17:30:00,45,Dance,118,World Dance,Fusion of various dance styles from around the world.,Sarah,1001,Brisbane City
+2025-08-18,08:30:00,09:30:00,60,Flexibility,119,Yoga,"Improve flexibility, balance, and mental well-being.",Alex,1001,Brisbane City
+2025-09-22,12:15:00,13:15:00,60,Dance,120,Zumba,Dance-based workout with Latin-inspired music.,Laura,1001,Brisbane City
+2024-02-10,08:00:00,08:45:00,45,Cardio,101,BodyAttack,High-energy cardio with athletic movements.,Sam,1002,Ashgrove
+2024-03-15,10:30:00,11:30:00,60,Cardio,102,BodyCombat,Martial arts-inspired workout for total body.,John,1002,Ashgrove
+2024-04-20,14:15:00,15:15:00,60,Strength,103,BodyPump,Barbell workout to music for full-body strength.,Tony,1002,Ashgrove
+2024-05-12,16:45:00,17:30:00,45,Cardio,104,BodyStep,"Simple, athletic movements on a step platform.",Lisa,1002,Ashgrove
+2024-06-18,11:00:00,11:45:00,45,Flexibility,105,BodyBalance,Yoga and Pilates-based moves for balance.,Song,1002,Ashgrove
+2024-07-22,19:30:00,20:30:00,60,Cycle,106,RPM,Indoor cycling with simulated hill climbs.,Richard,1002,Ashgrove
+2024-08-05,17:00:00,18:00:00,60,Cycle,107,Cycle,Traditional cycling class with varied intensity.,Richard,1002,Ashgrove
+2024-09-15,13:45:00,14:30:00,45,Cardio,108,Aqua Fit,Water-based workout for cardiovascular fitness.,Victoria,1002,Ashgrove
+2024-10-20,09:30:00,10:30:00,60,Strength,109,Boxing,Boxing-inspired workout for strength.,Brad,1002,Ashgrove
+2024-11-12,12:00:00,12:45:00,45,Cardio,110,Step Moves,Step-based aerobic workout with creative moves.,Lily,1002,Ashgrove
+2024-12-22,16:30:00,17:30:00,60,Cardio,111,Cardio Circuit,Circuit-style workout for overall fitness.,Sam,1002,Ashgrove
+2025-01-15,18:15:00,19:15:00,60,Cardio,112,Hi-Lo Fat Burner,High-low impact aerobics for fat burning.,Kate,1002,Ashgrove
+2025-02-10,10:45:00,11:30:00,45,Strength,113,Sculpt Combo,Combination of strength and sculpting exercises.,Aaron,1002,Ashgrove
+2025-03-18,15:30:00,16:30:00,60,Strength,114,ABT,"Abs, buns, and thighs focused strength class.",John,1002,Ashgrove
+2025-04-20,11:45:00,12:45:00,60,Dance,115,BodyJam,Dance-based workout with various music styles.,Lee,1002,Ashgrove
+2025-05-15,07:30:00,08:30:00,60,Flexibility,116,Pilates,Core-focused workout for flexibility and strength.,Cathy,1002,Ashgrove
+2025-06-22,14:00:00,15:00:00,60,Flexibility,117,Tai Chi,Ancient Chinese martial art for relaxation.,Song,1002,Ashgrove
+2025-07-10,16:45:00,17:30:00,45,Dance,118,World Dance,Fusion of various dance styles from around the world.,Cathy,1002,Ashgrove
+2025-08-18,08:30:00,09:30:00,60,Flexibility,119,Yoga,"Improve flexibility, balance, and mental well-being.",Lisa,1002,Ashgrove
+2025-09-22,12:15:00,13:15:00,60,Dance,120,Zumba,Dance-based workout with Latin-inspired music.,Kate,1002,Ashgrove
+2024-02-10,08:00:00,08:45:00,45,Cardio,101,BodyAttack,High-energy cardio with athletic movements.,Oliver,1003,Chermside
+2024-03-15,10:30:00,11:30:00,60,Cardio,102,BodyCombat,Martial arts-inspired workout for total body.,Ava,1003,Chermside
+2024-04-20,14:15:00,15:15:00,60,Strength,103,BodyPump,Barbell workout to music for full-body strength.,Liam,1003,Chermside
+2024-05-12,16:45:00,17:30:00,45,Cardio,104,BodyStep,"Simple, athletic movements on a step platform.",Sophia,1003,Chermside
+2024-06-18,11:00:00,11:45:00,45,Flexibility,105,BodyBalance,Yoga and Pilates-based moves for balance.,Jackson,1003,Chermside
+2024-07-22,19:30:00,20:30:00,60,Cycle,106,RPM,Indoor cycling with simulated hill climbs.,Emma,1003,Chermside
+2024-08-05,17:00:00,18:00:00,60,Cycle,107,Cycle,Traditional cycling class with varied intensity.,Noah,1003,Chermside
+2024-09-15,13:45:00,14:30:00,45,Cardio,108,Aqua Fit,Water-based workout for cardiovascular fitness.,Olivia,1003,Chermside
+2024-10-20,09:30:00,10:30:00,60,Strength,109,Boxing,Boxing-inspired workout for strength.,Lucas,1003,Chermside
+2024-11-12,12:00:00,12:45:00,45,Cardio,110,Step Moves,Step-based aerobic workout with creative moves.,Isabella,1003,Chermside
+2024-12-22,16:30:00,17:30:00,60,Cardio,111,Cardio Circuit,Circuit-style workout for overall fitness.,Ethan,1003,Chermside
+2025-01-15,18:15:00,19:15:00,60,Cardio,112,Hi-Lo Fat Burner,High-low impact aerobics for fat burning.,Mia,1003,Chermside
+2025-02-10,10:45:00,11:30:00,45,Strength,113,Sculpt Combo,Combination of strength and sculpting exercises.,Aiden,1003,Chermside
+2025-03-18,15:30:00,16:30:00,60,Strength,114,ABT,"Abs, buns, and thighs focused strength class.",Harper,1003,Chermside
+2025-04-20,11:45:00,12:45:00,60,Dance,115,BodyJam,Dance-based workout with various music styles.,Mason,1003,Chermside
+2025-05-15,07:30:00,08:30:00,60,Flexibility,116,Pilates,Core-focused workout for flexibility and strength.,Amelia,1003,Chermside
+2025-06-22,14:00:00,15:00:00,60,Flexibility,117,Tai Chi,Ancient Chinese martial art for relaxation.,Caden,1003,Chermside
+2025-07-10,16:45:00,17:30:00,45,Dance,118,World Dance,Fusion of various dance styles from around the world.,Evelyn,1003,Chermside
+2025-08-18,08:30:00,09:30:00,60,Flexibility,119,Yoga,"Improve flexibility, balance, and mental well-being.",Logan,1003,Chermside
+2025-09-22,12:15:00,13:15:00,60,Dance,120,Zumba,Dance-based workout with Latin-inspired music.,Abigail,1003,Chermside
+2024-02-10,08:00:00,08:45:00,45,Cardio,101,BodyAttack,High-energy cardio with athletic movements.,Benjamin,1004,Graceville
+2024-03-15,10:30:00,11:30:00,60,Cardio,102,BodyCombat,Martial arts-inspired workout for total body.,Chloe,1004,Graceville
+2024-04-20,14:15:00,15:15:00,60,Strength,103,BodyPump,Barbell workout to music for full-body strength.,Samuel,1004,Graceville
+2024-05-12,16:45:00,17:30:00,45,Cardio,104,BodyStep,"Simple, athletic movements on a step platform.",Grace,1004,Graceville
+2024-06-18,11:00:00,11:45:00,45,Flexibility,105,BodyBalance,Yoga and Pilates-based moves for balance.,Elijah,1004,Graceville
+2024-07-22,19:30:00,20:30:00,60,Cycle,106,RPM,Indoor cycling with simulated hill climbs.,Lily,1004,Graceville
+2024-08-05,17:00:00,18:00:00,60,Cycle,107,Cycle,Traditional cycling class with varied intensity.,Henry,1004,Graceville
+2024-09-15,13:45:00,14:30:00,45,Cardio,108,Aqua Fit,Water-based workout for cardiovascular fitness.,Scarlett,1004,Graceville
+2024-10-20,09:30:00,10:30:00,60,Strength,109,Boxing,Boxing-inspired workout for strength.,Caleb,1004,Graceville
+2024-11-12,12:00:00,12:45:00,45,Cardio,110,Step Moves,Step-based aerobic workout with creative moves.,Zoey,1004,Graceville
+2024-12-22,16:30:00,17:30:00,60,Cardio,111,Cardio Circuit,Circuit-style workout for overall fitness.,Dylan,1004,Graceville
+2025-01-15,18:15:00,19:15:00,60,Cardio,112,Hi-Lo Fat Burner,High-low impact aerobics for fat burning.,Addison,1004,Graceville
+2025-02-10,10:45:00,11:30:00,45,Strength,113,Sculpt Combo,Combination of strength and sculpting exercises.,Alexander,1004,Graceville
+2025-03-18,15:30:00,16:30:00,60,Strength,114,ABT,"Abs, buns, and thighs focused strength class.",Victoria,1004,Graceville
+2025-04-20,11:45:00,12:45:00,60,Dance,115,BodyJam,Dance-based workout with various music styles.,Wyatt,1004,Graceville
+2025-05-15,07:30:00,08:30:00,60,Flexibility,116,Pilates,Core-focused workout for flexibility and strength.,Ella,1004,Graceville
+2025-06-22,14:00:00,15:00:00,60,Flexibility,117,Tai Chi,Ancient Chinese martial art for relaxation.,Gabriel,1004,Graceville
+2025-07-10,16:45:00,17:30:00,45,Dance,118,World Dance,Fusion of various dance styles from around the world.,Sofia,1004,Graceville
+2025-08-18,08:30:00,09:30:00,60,Flexibility,119,Yoga,"Improve flexibility, balance, and mental well-being.",Jack,1004,Graceville
+2025-09-22,12:15:00,13:15:00,60,Dance,120,Zumba,Dance-based workout with Latin-inspired music.,Madison,1004,Graceville
+2024-02-10,08:00:00,08:45:00,45,Cardio,101,BodyAttack,High-energy cardio with athletic movements.,Sebastian,1005,Westlake
+2024-03-15,10:30:00,11:30:00,60,Cardio,102,BodyCombat,Martial arts-inspired workout for total body.,Penelope,1005,Westlake
+2024-04-20,14:15:00,15:15:00,60,Strength,103,BodyPump,Barbell workout to music for full-body strength.,Carter,1005,Westlake
+2024-05-12,16:45:00,17:30:00,45,Cardio,104,BodyStep,"Simple, athletic movements on a step platform.",Layla,1005,Westlake
+2024-06-18,11:00:00,11:45:00,45,Flexibility,105,BodyBalance,Yoga and Pilates-based moves for balance.,Daniel,1005,Westlake
+2024-07-22,19:30:00,20:30:00,60,Cycle,106,RPM,Indoor cycling with simulated hill climbs.,Riley,1005,Westlake
+2024-08-05,17:00:00,18:00:00,60,Cycle,107,Cycle,Traditional cycling class with varied intensity.,Isaac,1005,Westlake
+2024-09-15,13:45:00,14:30:00,45,Cardio,108,Aqua Fit,Water-based workout for cardiovascular fitness.,Aurora,1005,Westlake
+2024-10-20,09:30:00,10:30:00,60,Strength,109,Boxing,Boxing-inspired workout for strength.,Julian,1005,Westlake
+2024-11-12,12:00:00,12:45:00,45,Cardio,110,Step Moves,Step-based aerobic workout with creative moves.,Hazel,1005,Westlake
+2024-12-22,16:30:00,17:30:00,60,Cardio,111,Cardio Circuit,Circuit-style workout for overall fitness.,Leo,1005,Westlake
+2025-01-15,18:15:00,19:15:00,60,Cardio,112,Hi-Lo Fat Burner,High-low impact aerobics for fat burning.,Nora,1005,Westlake
+2025-02-10,10:45:00,11:30:00,45,Strength,113,Sculpt Combo,Combination of strength and sculpting exercises.,Matthew,1005,Westlake
+2025-03-18,15:30:00,16:30:00,60,Strength,114,ABT,"Abs, buns, and thighs focused strength class.",Aria,1005,Westlake
+2025-04-20,11:45:00,12:45:00,60,Dance,115,BodyJam,Dance-based workout with various music styles.,Owen,1005,Westlake
+2025-05-15,07:30:00,08:30:00,60,Flexibility,116,Pilates,Core-focused workout for flexibility and strength.,Scarlett,1005,Westlake
+2025-06-22,14:00:00,15:00:00,60,Flexibility,117,Tai Chi,Ancient Chinese martial art for relaxation.,Caleb,1005,Westlake
+2025-07-10,16:45:00,17:30:00,45,Dance,118,World Dance,Fusion of various dance styles from around the world.,Stella,1005,Westlake
+2025-08-18,08:30:00,09:30:00,60,Flexibility,119,Yoga,"Improve flexibility, balance, and mental well-being.",Logan,1005,Westlake
+2025-09-22,12:15:00,13:15:00,60,Dance,120,Zumba,Dance-based workout with Latin-inspired music.,Lucy,1005,Westlake

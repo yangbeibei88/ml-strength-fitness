@@ -1,0 +1,253 @@
+@use '../abstracts' as *;
+/* CONTACT page */
+form.contact-form {
+  display: grid;
+  grid-template-areas: 
+  'location location'
+  'fname lname'
+  'phone email'
+  'enquirytype enquirytype'
+  'subject subject'
+  'message message'
+  'privacy privacy'
+  'marketing marketing'
+  'submit submit'
+  ;
+  padding: 2rem 0;
+  column-gap: 0.6rem;
+  .club-location {
+    grid-area: location;
+  }
+  .first-name {
+    grid-area: fname;
+  }
+  .last-name {
+    grid-area: lname;
+  }
+  .phone-number {
+    grid-area: phone;
+  }
+  .email {
+    grid-area: email;
+  }
+  .enquiry-type {
+    grid-area: enquirytype;
+  }
+  .subject {
+    grid-area: subject;
+  }
+  .message {
+    grid-area: message;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .agree-privacy-checkbox {
+    grid-area: privacy;
+    width: 100%;
+  }
+  .consent-marketing {
+    grid-area: marketing;
+    width: 100%;
+  }
+  .btn-submit {
+    grid-area: submit;
+    width: 100%;
+  }
+
+  @include breakpoint(max, small) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-control {
+    display: flex;
+    flex-direction: column;
+    .ff-wrapper {
+      position: relative;
+      margin-top: 0.5rem;
+      .ff-icon {
+        position: absolute;
+        top: 0.6rem;
+      }
+    }
+    label:not(.checkbox-text) {
+      @include breakpoint(max, small) {
+        display: none;
+      }
+    }
+  }
+
+  .form-control {
+    &.agree-privacy-checkbox,
+    &.consent-marketing {
+      display: grid!important;
+      grid-template-columns: 5% 95%;
+      text-align: left!important;
+      margin: 0.5rem auto;
+      input[type="checkbox"] {
+        width: 2rem;
+      }
+      label {
+        vertical-align: middle;
+        margin: auto 0;
+        &.checkbox-text {
+          font-size: 1.5rem;
+          padding-left: 1rem;
+        }
+      }
+    }
+    &.phone-number {
+      &:hover {
+        position: relative;
+        .formfield-tooltip {
+          visibility: visible;
+          opacity: 1;
+        }
+      }
+    }
+    &.subject {
+      @include breakpoint(max, small) {
+        display: none;
+      }
+    }
+    &.success {
+      input, select, textarea {
+        border-color: green;
+      } 
+    }
+    .form-field-error {
+      // width: 100%;
+      visibility: hidden;
+      padding: 0;
+      font-size: 1.2rem;
+      background-color: $color-burgundy;
+      color: set-text-color($color-burgundy);
+      border-radius: 0 0 0.5rem 0.5rem;
+      box-sizing: border-box;
+      &.active {
+        padding: 1rem;
+      }
+    }
+    &.error {
+      input, select, textarea {
+        border-color: red;
+      }
+      .form-field-error {
+        visibility: visible;
+      }
+    }
+  }
+
+  .required::before {
+    content: "*";
+    color: $color-redorange;
+    margin-right: 0.5rem;
+  }
+
+  select, textarea {
+    width: 100%;
+    padding-left: 3rem;
+  }
+
+  input, select {
+    width: 100%;
+    padding: 0.5rem;
+    height: 4rem;
+    padding-left: 3rem;
+  }
+
+  .formfield-tooltip {
+    font-size: 1rem;
+    visibility: hidden;
+    width: min(180px, 100%);
+    background-color: $color-redorange;
+    color: $color-white;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    bottom: 70%;
+    left: 60%;
+    margin-left: -5rem;
+    opacity: 0;
+    transition: opacity 0.3s;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -0.5rem;
+      border: 0.5rem solid;
+      border-color: $color-redorange transparent transparent transparent;
+    }
+  }
+}
+
+.contact-info {
+  padding: 2rem;
+  border-left: 1px solid $color-redorange;
+  @include breakpoint(max, medium) {
+    border-left: none;
+    border-top: 1px solid $color-redorange;
+  }
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    margin: 1rem auto;
+  }
+}
+
+#helpLink {
+  @include breakpoint(max, small) {
+    display: none;
+  }
+}
+
+#help-modal {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100vh;
+  z-index: 99;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  .modal-container {
+    display: block;
+    background-color: $color-white;
+    // border: 1px solid $color-redorange;
+    border-radius: 1rem;
+    margin: auto;
+    // position: absolute;
+    .modal-head {
+      display: flex;
+      flex-flow: row-reverse;
+      background-color: $color-midnightBlue;
+      color: set-text-color($color-midnightBlue);
+      width: 100%;
+      margin: 0 auto;
+      border-radius: 1rem 1rem 0 0;
+      text-align: center;
+      padding: 1rem;
+      justify-content: space-between;
+    }
+    .modal-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: min-content;
+      .modal-detailed-content {
+        max-height: 200px;
+        overflow-y:scroll;
+      }
+    }
+  }
+}

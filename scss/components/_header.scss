@@ -1,0 +1,64 @@
+@use '../abstracts' as *;
+
+/* HEADER - NAVBAR */
+#navbar {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  background: $color-midnightBlue;
+  width: 100%;
+  height: 70px;
+  top: 0;
+  padding: 0 30px;
+  z-index: 20;
+
+  .header-logo {
+    height: 45px;
+    width: auto;
+    padding: 10px 20px 0;
+  }
+
+  ul#navLinks {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    @include breakpoint(max, small) {
+      display: none;
+      background-color: $color-slateBlue;
+      padding-bottom: 0.5rem;
+      z-index: 30;
+      flex-direction: column;
+    }
+    
+    a {
+      color: white;
+      padding: 10px 20px;
+      margin: 0 5px;
+      transition: 0.3s;
+      &:is(:hover, :visited) {
+        background-color: $color-slateBlue;
+      }
+      @include breakpoint(max, small) {
+        display: block;
+      }
+    }
+  }
+  .mobile-nav-menu {
+    display: none;
+    @include breakpoint(max, small) {
+      display: block;
+      cursor: pointer;
+    }
+  }
+
+  .navLinksContainer {
+    @include breakpoint(max, small) {
+      width: 200px;
+      position: relative;
+      top: 150%;
+      left: 10%;
+    }
+  }
+}

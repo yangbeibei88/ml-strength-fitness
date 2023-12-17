@@ -1,0 +1,91 @@
+@use '../abstracts' as *;
+
+/* ICONS */
+%icon-shared {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 6 Free";
+  // font: var(--fa-font-solid);
+  margin: 0 0.6rem;
+}
+
+.address::before {
+  @extend %icon-shared;
+  content: '\f3c5';
+}
+
+.phone::before {
+  @extend %icon-shared;
+  content: '\f095';
+}
+.email::before {
+  @extend %icon-shared;
+  content: '\f0e0';
+}
+.openhours::before {
+  @extend %icon-shared;
+  content: '\f52b';
+}
+
+.navbar-hamburger-toggler::before {
+  @extend %icon-shared;
+  content: '\f0c9';
+  color: $color-white;
+  font-size: 3rem;
+}
+
+.navbar-hamburger-close::before {
+  @extend %icon-shared;
+  content: '\f00d';
+  color: $color-white;
+  font-size: 3rem;
+}
+.window-close::before {
+  @extend %icon-shared;
+  content: '\f00d';
+  font-size: 1.5rem;
+}
+
+.user::before {
+  @extend %icon-shared;
+  content: '\f007';
+}
+
+.question::before {
+  @extend %icon-shared;
+  content: '\f059';
+}
+.write::before {
+  @extend %icon-shared;
+  content: '\f52d';
+}
+.keyboard::before {
+  @extend %icon-shared;
+  content: '\f11c';
+}
+
+.submit::after {
+  @extend %icon-shared;
+  content: '\f1d8';
+}
+
+.search::before {
+  @extend %icon-shared;
+  content: '\f002';
+}
+
+.filter::before {
+  @extend %icon-shared;
+  content: '\f0b0';
+}
+
+.arrow-right::after {
+  @extend %icon-shared;
+  content: '\f061';
+}
+
+.info::before {
+  @extend %icon-shared;
+  content: '\f05a';
+}

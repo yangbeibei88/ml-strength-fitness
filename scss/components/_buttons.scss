@@ -1,0 +1,51 @@
+@use '../abstracts' as *;
+
+/* BUTTONS */
+
+%btn-shared {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  padding: 1rem 2rem;
+  // margin: 1.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s;
+}
+
+.btn {
+  &-main {
+    @extend %btn-shared;
+    color: white;
+    background-color: $color-redorange;
+    border: 1px solid $color-redorange;
+  }
+  &-small {
+    @extend %btn-shared;
+    background-color: $color-redorange;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    border: 1px solid $color-redorange;
+    border-radius: 2rem;
+  }
+  &-circle {
+    @extend %btn-shared;
+    background-color: $color-redorange;
+    color: white;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: 1px solid $color-redorange;
+    border-radius: 100%;
+  }
+  &-submit {
+    @extend %btn-shared;
+    color: white;
+    background-color: $color-redorange;
+    border: 1px solid $color-redorange;
+    margin: 1.5rem 0;
+  }
+  &:is(:hover, :active) {
+    background-color: white;
+    color: $color-redorange;
+  }
+}

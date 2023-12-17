@@ -1,0 +1,36 @@
+$breakpoints: (
+  "small": 576px,
+  "medium": 768px,
+  "large": 992px,
+  "xlarge": 1200px
+);
+
+// if a breakpoint's key exists, $value == $breakpoint.key
+// if not,$value is a custom px value
+@mixin breakpoint($mode, $value) {
+  @if ($mode == "max") {
+    @if (map-has-key($breakpoints, $value )) {
+      @media (max-width: map-get($breakpoints, $value)) {
+        @content;
+      }
+    }
+    @else {
+      @media (max-width: $value) {
+        @content;
+      }
+    }
+  } @else if ($mode == "min") {
+    @if ($mode == "min") {
+      @if (map-has-key($breakpoints, $value )) {
+        @media (min-width: map-get($breakpoints, $value)) {
+          @content;
+        }
+      }
+      @else {
+        @media (min-width: $value) {
+          @content;
+        }
+      }
+  }
+}
+}

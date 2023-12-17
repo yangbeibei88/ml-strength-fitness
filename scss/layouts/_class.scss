@@ -1,0 +1,85 @@
+@use '../abstracts' as *;
+/* CLASS DETAIL PAGE */
+.class-detailpage-nav-main-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 1rem 2rem;
+  margin: 1rem auto;
+  grid-gap: 2rem;
+  max-width: 1600px;
+  @include breakpoint(max, small) {
+    grid-template-columns: 1fr;
+  }
+  aside#class-detail-side-nav {
+    margin: 1rem 2rem;
+    padding: 1rem 1.5rem;
+    border: 1px solid $color-redorange;
+    height: fit-content;
+    @include breakpoint(max, small) {
+      display: none;
+    }
+    .class-detail-side-navlist {
+      list-style: none inside;
+      li {
+        border-bottom: 1px dotted $color-redorange;
+        padding: 1rem 0;
+        font-weight: 700;
+        &:last-child {
+          border-bottom: none;
+        }
+        &::before {
+          content: " ";
+        }
+        &::marker {
+          content: "\f35a";
+          font-family: "Font Awesome 6 Free";
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  #class-detail-info {
+    h5 {
+      padding-top: 1rem;
+    }
+    .iframe-container {
+      position: relative;
+      // width: min(100%, 600px);
+      width: 100%;
+      overflow: hidden;
+      padding-bottom: 56%;
+      iframe {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        overflow: hidden;
+
+      }
+    }
+
+    #class-timetable {
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        th {
+          background-color: $color-redorange;
+          color: $color-white;
+          border: $color-silver 1px solid;
+          padding: 0.5rem 1rem;
+        }
+        td {
+          padding: 0.5rem 1rem;
+          border: $color-silver 1px solid;
+        }
+        tr:nth-child(even) {
+          background-color: $color-lightGrey;
+        }
+      }
+
+      input {
+        padding-left: 3rem;
+      }
+    }
+
+  }
+}

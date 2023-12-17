@@ -1,0 +1,482 @@
+[
+  {
+    "class_id": 101,
+    "class_name": "BodyAttack",
+    "class_category": "Cardio",
+    "class_thumbnail_path": "../img/classes/thumbnails/bodyattack_600x600_thumbnail.png",
+    "class_header_path": "../img/classes/headers/bodyattack-q319-lesmills-fia-webassets_cf-dt-ba.jpg",
+    "class_video_src": "https://www.youtube-nocookie.com/embed/7VAChqy78oc?si=HyycRlvjgnPtFoML",
+    "class_description": "BODYATTACK™ is a high-energy fitness class with moves that cater for total beginners to total addicts. We combine athletic movements like running, lunging and jumping with strength exercises such as push-ups and squats. A LES MILLS™ instructor will pump out energizing tunes and lead you through the workout – challenging your limits in a good way, burning up to 555 calories** and leaving you with a sense of achievement.",
+    "class_benefits": [
+       "Improved cardio fitness and stamina",
+       "Toning and shaping",
+       "Improved agility"
+    ],
+    "class_duration": [
+       "30mins",
+       "45mins",
+       "55mins"
+    ],
+    "class_bring_items": [
+       "Water Bottle",
+       "Sweat Towel",
+       "Yoga Mat"
+    ]
+ },
+  {
+    "class_id": 102,
+    "class_name": "BodyCombat",
+    "class_category": "Cardio",
+    "class_thumbnail_path": "../img/classes/thumbnails/bodycombat-workout-page.jpg",
+    "class_header_path": "../img/classes/headers/body-combat-header.jpg",
+    "class_video_src": "https://www.youtube-nocookie.com/embed/-OyrZAKnyDs?si=NQXAoh_oytM_jEST",
+    "class_description": "BODYCOMBAT™ is a high-energy martial arts-inspired workout. You'll punch and kick your way to superior fitness and strength. It's totally non-contact and there are no complex moves to master. A LES MILLS™ instructor will challenge you to up the intensity and motivate you to make the most of every round.",
+    "class_benefits": [
+       "Increased cardiovascular fitness",
+       "Improved coordination and agility",
+       ""
+    ],
+    "class_duration": [
+       "45mins",
+       "60mins",
+       ""
+    ],
+    "class_bring_items": [
+       "Water Bottle",
+       "Towel",
+       "Workout Gloves"
+    ]
+ },
+  {
+    "class_id": 103,
+    "class_name": "BodyPump",
+    "class_category": "Strength",
+    "class_thumbnail_path": "../img/classes/thumbnails/bodypump_tile_600x600.jpg",
+    "class_header_path": "../img/classes/headers/bodypump-q319-lesmills-fia-webassets_cf-dt-bp.jpg",
+    "class_video_src": "https://www.youtube-nocookie.com/embed/Z48mD4csrBM?si=4SmyFq3tj6ZKi3bO",
+    "class_description": "BODYPUMP™ is a barbell workout for anyone looking to get lean, toned, and fit – fast. Using light to moderate weights with lots of repetition, BODYPUMP gives you a total body workout. It will burn up to 540 calories*. Instructors will coach you through the scientifically-backed moves and techniques pumping out encouragement, motivation, and great music – helping you achieve much more than on your own!",
+    "class_benefits": [
+       "Full-body toning",
+       "Increased strength and endurance",
+       "Lean muscle building"
+    ],
+    "class_duration": [
+       "45mins",
+       "55mins",
+       "60mins"
+    ],
+    "class_bring_items": [
+       "Water Bottle",
+       "Towel",
+       "Weightlifting Gloves"
+    ]
+ },
+  {
+    "class_id": 104,
+    "class_name": "BodyStep",
+    "class_category": "Cardio",
+    "class_thumbnail_path": "../img/classes/thumbnails/bodystep_600x600_thumbnail.jpg",
+    "class_header_path": "../img/classes/headers/bodystep_q319-lesmills-fia-webassets_cf-dt-bs.jpg",
+    "class_video_src": "https://www.youtube-nocookie.com/embed/h0YpmnVN5Pk?si=OE2u0yIj6g1yRHWA",
+    "class_description": "BODYSTEP™ is the energizing step workout that makes you feel liberated and alive. Using a height-adjustable step and simple movements on, over, and around the step, you get huge motivation from sing-a-long music and approachable instructors. Cardio blocks push fat burning systems into high gear followed by muscle conditioning tracks that shape and tone your body.",
+    "class_benefits": [
+       "Improved coordination",
+       "Lower body toning",
+       "Cardiovascular conditioning"
+    ],
+    "class_duration": [
+       "30mins",
+       "45mins",
+       "60mins"
+    ],
+    "class_bring_items": [
+       "Water Bottle",
+       "Towel",
+       "Workout Shoes"
+    ]
+ },
+  {
+    "class_id": 105,
+    "class_name": "BodyBalance",
+    "class_category": "Flexibility",
+    "class_thumbnail_path": "../img/classes/thumbnails/bodybalance_600x600_thumbnails.png",
+    "class_header_path": "../img/classes/headers/bodybalance_hero.jpg",
+    "class_video_src": "https://www.youtube-nocookie.com/embed/6gMJdVHrwl4?si=sWhXIlPc9giMb5rw",
+    "class_description": "BODYBALANCE™ is the yoga, tai chi, and Pilates workout that builds flexibility and strength and leaves you feeling centered and calm. Controlled breathing, concentration, and a carefully structured series of stretches, moves, and poses create a holistic workout that brings the body into a state of harmony and balance.",
+    "class_benefits": [
+       "Improved flexibility",
+       "Core strength",
+       "Stress reduction"
+    ],
+    "class_duration": [
+       "45mins",
+       "55mins",
+       ""
+    ],
+    "class_bring_items": [
+       "Yoga Mat",
+       "Towel",
+       "Comfortable Clothing"
+    ]
+ },
+  {
+    "class_id": 106,
+    "class_name": "RPM",
+    "class_category": "Cycle",
+    "class_thumbnail_path": "../img/classes/thumbnails/q319-lesmills-fia-webassets_cf-mb-rpm.jpg",
+    "class_header_path": "../img/classes/headers/q319-lesmills-fia-webassets_cf-dt-rpm.jpg",
+    "class_video_src": "https://www.youtube-nocookie.com/embed/2-ELpvfio4Y?si=SMWi_6Q3KOhp9YsM",
+    "class_description": "RPM™ is the indoor cycling workout where you ride to the rhythm of powerful music. Take on the terrain with your inspiring team coach who leads the pack through hills, flats, mountain peaks, time trials, and interval training. Discover your athlete within – sweat and burn to reach your endorphin high.",
+    "class_benefits": [
+       "Increased cardiovascular fitness",
+       "Lower body strength",
+       "Calorie burn"
+    ],
+    "class_duration": [
+       "45mins",
+       "60mins",
+       ""
+    ],
+    "class_bring_items": [
+       "Water Bottle",
+       "Towel",
+       "Cycling Shoes"
+    ]
+ },
+  {
+    "class_id": 107,
+    "class_name": "Cycle",
+    "class_category": "Cycle",
+    "class_thumbnail_path": "../img/classes/thumbnails/cycle-class-thumbnail.jpg",
+    "class_header_path": "../img/classes/headers/cycle-class-header.jpeg",
+    "class_video_src": "",
+    "class_description": "CYCLE is a class that takes your indoor cycling experience to the next level. Pedal through visually stunning landscapes as your instructor guides you through various terrains and intensities. It's a challenging and exhilarating cardio workout that brings the outdoor cycling experience inside.",
+    "class_benefits": [
+       "Cardiovascular conditioning",
+       "Lower body strength",
+       "Endurance building"
+    ],
+    "class_duration": [
+       "45mins",
+       "60mins",
+       ""
+    ],
+    "class_bring_items": [
+       "Water Bottle",
+       "Towel",
+       "Cycling Shoes"
+    ]
+ },
+  {
+    "class_id": 108,
+    "class_name": "Aqua Fit",
+    "class_category": "Cardio",
+    "class_thumbnail_path": "../img/classes/thumbnails/aquafit-class-thumbnail.jpg",
+    "class_header_path": "../img/classes/headers/aquafit-header.jpeg",
+    "class_video_src": "",
+    "class_description": "AQUA FIT is a water-based fitness class that combines cardiovascular and strength training exercises in the pool. The water provides resistance, making it a low-impact yet highly effective workout. Join us for a fun and refreshing way to stay fit and cool off at the same time.",
+    "class_benefits": [
+       "Improved cardiovascular fitness",
+       "Low-impact exercise",
+       "Full-body workout"
+    ],
+    "class_duration": [
+       "45mins",
+       "60mins",
+       ""
+    ],
+    "class_bring_items": [
+       "Swimsuit",
+       "Towel",
+       "Water Shoes"
+    ]
+ },
+  {
+    "class_id": 109,
+    "class_name": "Boxing",
+    "class_category": "Strength",
+    "class_thumbnail_path": "../img/classes/thumbnails/boxing-class-thumbnail.jpg",
+    "class_header_path": "../img/classes/headers/boxing-header.jpeg",
+    "class_video_src": "",
+    "class_description": "BOXING is a high-intensity workout that incorporates boxing techniques and drills to improve strength, agility, and endurance. You'll punch, kick, and work on combinations in this empowering and energizing class. Suitable for all fitness levels, it's a great way to relieve stress and build total-body strength.",
+    "class_benefits": [
+       "Increased upper body strength",
+       "Improved coordination",
+       "Stress relief"
+    ],
+    "class_duration": [
+       "45mins",
+       "60mins",
+       ""
+    ],
+    "class_bring_items": [
+       "Boxing Gloves",
+       "Towel",
+       "Water Bottle"
+    ]
+ },
+  {
+    "class_id": 110,
+    "class_name": "Step Moves",
+    "class_category": "Cardio",
+    "class_thumbnail_path": "../img/classes/thumbnails/step-moves-thumbnail.jpg",
+    "class_header_path": "../img/classes/headers/step-moves-header.jpeg",
+    "class_video_src": "",
+    "class_description": "STEP MOVES is a dynamic cardio class that combines step aerobics with creative dance moves. The step adds intensity to the workout, targeting the lower body while the dance elements keep it fun and entertaining. Join us for a high-energy class that will keep you moving and grooving.",
+    "class_benefits": [
+       "Cardiovascular conditioning",
+       "Lower body toning",
+       "Dance-inspired workout"
+    ],
+    "class_duration": [
+       "45mins",
+       "60mins",
+       ""
+    ],
+    "class_bring_items": [
+       "Workout Shoes",
+       "Towel",
+       "Water Bottle"
+    ]
+ },
+  {
+    "class_id": 111,
+    "class_name": "Cardio Circuit",
+    "class_category": "Cardio",
+    "class_thumbnail_path": "../img/classes/thumbnails/cardio-circuit-thumbnail.jpg",
+    "class_header_path": "../img/classes/headers/cardio-circuit-header.jpg",
+    "class_video_src": "",
+    "class_description": "CARDIO CIRCUIT is a circuit training class that combines cardiovascular exercises with strength training stations. You'll move through various stations, challenging your heart and muscles in this high-intensity workout. It's a time-efficient way to burn calories and improve overall fitness.",
+    "class_benefits": [
+       "Improved cardiovascular fitness",
+       "Full-body strength",
+       "Time-efficient workout"
+    ],
+    "class_duration": [
+       "30mins",
+       "45mins",
+       "60mins"
+    ],
+    "class_bring_items": [
+       "Water Bottle",
+       "Towel",
+       "Comfortable Clothing"
+    ]
+ },
+  {
+    "class_id": 112,
+    "class_name": "Hi-Lo Fat Burner",
+    "class_category": "Cardio",
+    "class_thumbnail_path": "../img/classes/thumbnails/hi-lo-cardio-thumbnail.jpeg",
+    "class_header_path": "../img/classes/headers/hi-lo-cardio-header.jpeg",
+    "class_video_src": "",
+    "class_description": "HI-LO FAT BURNER is a classic aerobics class that combines high and low-impact movements to burn calories and boost metabolism. With energizing music and simple yet effective moves, it's suitable for all fitness levels. Join us for a fun and effective workout that will help you torch fat and improve cardiovascular health.",
+    "class_benefits": [
+       "Calorie burn",
+       "Cardiovascular conditioning",
+       "Full-body workout"
+    ],
+    "class_duration": [
+       "45mins",
+       "60mins",
+       ""
+    ],
+    "class_bring_items": [
+       "Workout Shoes",
+       "Towel",
+       "Water Bottle"
+    ]
+ },
+  {
+    "class_id": 113,
+    "class_name": "Sculpt Combo",
+    "class_category": "Strength",
+    "class_thumbnail_path": "../img/classes/thumbnails/sculpt-training-thumbnail.jpg",
+    "class_header_path": "../img/classes/headers/sculpt-combo-header.jpeg",
+    "class_video_src": "",
+    "class_description": "SCULPT COMBO is a strength training class that targets all major muscle groups using a variety of equipment such as dumbbells, resistance bands, and body weight exercises. It's designed to sculpt and tone your body while improving strength and endurance. Join us for a challenging and rewarding strength workout.",
+    "class_benefits": [
+       "Full-body toning",
+       "Increased strength",
+       "Improved muscle definition"
+    ],
+    "class_duration": [
+       "45mins",
+       "60mins",
+       ""
+    ],
+    "class_bring_items": [
+       "Towel",
+       "Workout Gloves",
+       "Water Bottle"
+    ]
+ },
+  {
+    "class_id": 114,
+    "class_name": "ABT",
+    "class_category": "Strength",
+    "class_thumbnail_path": "../img/classes/thumbnails/abt-thumbnail.jpeg",
+    "class_header_path": "../img/classes/headers/abt-header.jpeg",
+    "class_video_src": "https://www.youtube-nocookie.com/embed/3LlvMrjLar0?si=T0Om6OAnS3k6KS-M",
+    "class_description": "ABT (Abs, Butt, and Thighs) is a focused workout that targets the core, glutes, and thighs. Through a series of exercises and movements, you'll tone and strengthen these specific muscle groups. It's a great addition to your fitness routine for achieving a sculpted and defined midsection, buttocks, and thighs.",
+    "class_benefits": [
+       "Core strengthening",
+       "Glute and thigh toning",
+       "Improved muscle endurance"
+    ],
+    "class_duration": [
+       "30mins",
+       "45mins",
+       ""
+    ],
+    "class_bring_items": [
+       "Yoga Mat",
+       "Towel",
+       "Water Bottle"
+    ]
+ },
+  {
+    "class_id": 115,
+    "class_name": "BodyJam",
+    "class_category": "Dance",
+    "class_thumbnail_path": "../img/classes/thumbnails/bodyjam_600x600_thumbnail.jpg",
+    "class_header_path": "../img/classes/headers/bodyjam_hero.jpg",
+    "class_video_src": "https://www.youtube-nocookie.com/embed/eD88kFXMAzM?si=5cICb3hEqVr6bHu6",
+    "class_description": "BODYJAM™ is the ultimate dance workout that combines the latest dance styles with the hottest music. You'll learn fun choreography and dance your way to fitness in this high-energy class. No dance experience required – just come ready to move and have a great time!",
+    "class_benefits": [
+       "Cardiovascular conditioning",
+       "Improved coordination",
+       "Dance-inspired workout"
+    ],
+    "class_duration": [
+       "45mins",
+       "60mins",
+       ""
+    ],
+    "class_bring_items": [
+       "Dance Shoes",
+       "Towel",
+       "Water Bottle"
+    ]
+ },
+  {
+    "class_id": 116,
+    "class_name": "Pilates",
+    "class_category": "Flexibility",
+    "class_thumbnail_path": "../img/classes/thumbnails/pilate-class-thumbnail.jpg",
+    "class_header_path": "../img/classes/headers/pilates-header.jpeg",
+    "class_video_src": "",
+    "class_description": "PILATES is a mind-body workout that focuses on core strength, flexibility, and overall body awareness. Through a series of controlled movements and breath work, Pilates helps improve posture, build long, lean muscles, and enhance overall well-being. Join us for a session that will leave you feeling strong, centered, and revitalized.",
+    "class_benefits": [
+       "Core strength",
+       "Improved flexibility",
+       "Mind-body connection"
+    ],
+    "class_duration": [
+       "45mins",
+       "",
+       ""
+    ],
+    "class_bring_items": [
+       "Yoga Mat",
+       "Towel",
+       "Comfortable Clothing"
+    ]
+ },
+  {
+    "class_id": 117,
+    "class_name": "Tai Chi",
+    "class_category": "Flexibility",
+    "class_thumbnail_path": "../img/classes/thumbnails/tai-chi-thumbnail.jpg",
+    "class_header_path": "../img/classes/headers/tai-chi-header.jpeg",
+    "class_video_src": "",
+    "class_description": "TAI CHI is an ancient Chinese martial art that emphasizes slow, flowing movements and deep breathing. It's a low-impact exercise that promotes relaxation, balance, and flexibility. Join us for a Tai Chi class to experience the meditative and rejuvenating benefits of this timeless practice.",
+    "class_benefits": [
+       "Stress reduction",
+       "Improved balance",
+       "Enhanced flexibility"
+    ],
+    "class_duration": [
+       "45mins",
+       "",
+       ""
+    ],
+    "class_bring_items": [
+       "Comfortable Clothing",
+       "Water Bottle",
+       ""
+    ]
+ },
+  {
+    "class_id": 118,
+    "class_name": "World Dance",
+    "class_category": "Dance",
+    "class_thumbnail_path": "../img/classes/thumbnails/world-dance-thumbnail.jpg",
+    "class_header_path": "../img/classes/headers/world-dance-header.jpeg",
+    "class_video_src": "",
+    "class_description": "WORLD DANCE is a vibrant and energetic dance class that explores various dance styles from around the world. From salsa to Bollywood, you'll move to the beats of different cultures and have a blast while getting a great workout. Join us for a global dance party that will leave you smiling and sweating!",
+    "class_benefits": [
+       "Cardiovascular conditioning",
+       "Cultural exploration",
+       "Dance-inspired workout"
+    ],
+    "class_duration": [
+       "45mins",
+       "",
+       ""
+    ],
+    "class_bring_items": [
+       "Dance Shoes",
+       "Towel",
+       "Water Bottle"
+    ]
+ },
+  {
+    "class_id": 119,
+    "class_name": "Yoga",
+    "class_category": "Flexibility",
+    "class_thumbnail_path": "../img/classes/thumbnails/yoga-class-thumbnail.jpg",
+    "class_header_path": "../img/classes/headers/yoga-header.jpeg",
+    "class_video_src": "",
+    "class_description": "YOGA is a holistic practice that combines physical postures, breath work, and meditation to promote overall well-being. Whether you're a beginner or an experienced yogi, our yoga class offers a space for relaxation, flexibility, and inner peace. Join us to stretch, strengthen, and connect mind and body.",
+    "class_benefits": [
+       "Improved flexibility",
+       "Stress reduction",
+       "Mind-body connection"
+    ],
+    "class_duration": [
+       "45mins",
+       "",
+       ""
+    ],
+    "class_bring_items": [
+       "Yoga Mat",
+       "Comfortable Clothing",
+       "Water Bottle"
+    ]
+ },
+  {
+    "class_id": 120,
+    "class_name": "Zumba",
+    "class_category": "Dance",
+    "class_thumbnail_path": "../img/classes/thumbnails/zumba-class-thumbnail.jpg",
+    "class_header_path": "../img/classes/headers/zumba-header.jpeg",
+    "class_video_src": "",
+    "class_description": "ZUMBA is a high-energy dance workout that fuses Latin and international music with easy-to-follow dance moves. It's a dynamic and fun way to burn calories while enjoying the rhythms of different cultures. Join us for a Zumba class that will make you forget you're working out – it's a party for your body and soul!",
+    "class_benefits": [
+       "Cardiovascular conditioning",
+       "Dance-inspired workout",
+       "Fun and energetic"
+    ],
+    "class_duration": [
+       "45mins",
+       "",
+       ""
+    ],
+    "class_bring_items": [
+       "Dance Shoes",
+       "Towel",
+       "Water Bottle"
+    ]
+ }
+ ]

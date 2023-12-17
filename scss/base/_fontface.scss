@@ -1,0 +1,11 @@
+@use '../abstracts' as *;
+
+@include font-face("Saira Semi Condensed", "../../assets/fonts/sairasemicondensed-light-webfont", 300);
+@include font-face("Saira Semi Condensed", "../../assets/fonts/sairasemicondensed-regular-webfont", 400);
+@include font-face("Saira Semi Condensed", "../../assets/fonts/sairasemicondensed-medium-webfont", 500);
+@include font-face("Saira Semi Condensed", "../../assets/fonts/sairasemicondensed-semibold-webfont", 600);
+@include font-face("Saira Semi Condensed", "../../assets/fonts/sairasemicondensed-bold-webfont", 700);
+@include font-face("Titillium Web", "../../assets/fonts/titilliumweb-light-webfont",300);
+@include font-face("Titillium Web", "../../assets/fonts/titilliumweb-regular-webfont",400);
+@include font-face("Titillium Web", "../../assets/fonts/titilliumweb-semibold-webfont",600);
+@include font-face("Titillium Web", "../../assets/fonts/titilliumweb-bold-webfont",700);

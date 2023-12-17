@@ -1,0 +1,14 @@
+/* FONT SIZE */
+@for $i from 1 through 6 {
+  // h#{$i} {font-size: 4rem - 0.5rem * ($i - 1);}
+  h#{$i} {font-size: clamp((3rem - 0.4rem * ($i - 1)), (3rem - 0.4rem * ($i - 1)) + (1vw - 0.1vw * $i), (4rem - 0.4rem * ($i - 1)));}
+}
+
+// set text color
+@function set-text-color($bg-color) {
+  @if(lightness($bg-color) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
