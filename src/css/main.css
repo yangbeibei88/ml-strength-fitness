@@ -805,17 +805,17 @@ footer p {
 }
 #clubs .locations-map-wrapper {
   position: relative;
-  top: 200px;
+  top: 220px;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  margin-bottom: 200px;
+  margin-bottom: 220px;
 }
 @media (max-width: 576px) {
   #clubs .locations-map-wrapper {
     display: flex;
     flex-direction: column;
-    top: 230px;
-    margin-bottom: 230px;
+    top: 256px;
+    margin-bottom: 256px;
   }
 }
 #clubs .locations-map-wrapper .location-list {
