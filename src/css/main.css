@@ -322,6 +322,20 @@ select {
   display: flex;
 }
 
+.filter-group-v {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.filter-group-v-100 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 .styled-list {
   list-style: disc;
   list-style-position: inside;
@@ -347,6 +361,10 @@ details[open] {
 details[open] summary {
   border-bottom: 1px solid #bfc0c0;
   margin-bottom: 1rem;
+}
+
+.font-weight-700 {
+  font-weight: 700;
 }
 
 /* ICONS */
@@ -811,10 +829,13 @@ footer p {
   column-gap: 1rem;
   margin: 1rem 0;
   padding: 1rem;
+  align-items: center;
+  justify-content: center;
 }
 #clubs form#club-search input {
   width: 100%;
   border: 1px solid #2d3142;
+  height: 4rem;
 }
 
 #all-clubs-map {

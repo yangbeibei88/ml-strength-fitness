@@ -115,6 +115,18 @@ select {
   position: relative;
   display: flex;
 }
+.filter-group-v {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+.filter-group-v-100 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 
 .styled-list {
   list-style: disc;
@@ -142,4 +154,8 @@ details[open] {
 details[open] summary {
   border-bottom: 1px solid $color-silver;
   margin-bottom: 1rem;
+}
+
+.font-weight-700 {
+  font-weight: 700;
 }
