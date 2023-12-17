@@ -875,6 +875,11 @@ footer p {
   color: #fff;
 }
 
+#all-class-list select {
+  padding-left: 3rem;
+  height: 3rem;
+}
+
 /* CONTACT page */
 form.contact-form {
   display: grid;

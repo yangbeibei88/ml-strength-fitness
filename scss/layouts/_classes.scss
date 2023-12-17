@@ -44,3 +44,9 @@
     color: set-text-color($color-burgundy);
   }
 }
+#all-class-list {
+  select {
+    padding-left: 3rem;
+    height: 3rem;
+  }
+}

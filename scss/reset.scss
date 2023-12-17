@@ -98,10 +98,10 @@ meter {
 }
 
 /* Revert Modal native behavior */
-:where(dialog:modal) {
-  all: revert;
-  box-sizing: border-box;
-}
+// :where(dialog:modal) {
+//   all: revert;
+//   box-sizing: border-box;
+// }
 
 /* Remove details summary webkit styles */
 ::-webkit-details-marker {
