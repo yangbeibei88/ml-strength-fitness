@@ -139,9 +139,12 @@ async function displayClassDetails() {
   `;
   classHeader.appendChild(classHeaderBannerDiv);
 
-  // class aside nav title
-  const classAsideH5 = document.querySelector("#class-detail-side-nav h5");
-  classAsideH5.textContent = currentClass.class_name;
+  // insert class name on top of aside
+  const classAside = document.getElementById("class-detail-side-nav");
+  const classAsideTitle = document.createElement("h5");
+  classAsideTitle.textContent = currentClass.class_name;
+
+  classAside.insertAdjacentElement("afterbegin", classAsideTitle);
 
   // class details page - class detail info
   const classDetailInfo = document.getElementById("class-detail-info");
