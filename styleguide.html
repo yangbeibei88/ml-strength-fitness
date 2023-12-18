@@ -12,6 +12,40 @@
     href="css/fontawesome.css">
   <link rel="stylesheet" href="css/main.css">
   <script src="js/main.js" defer></script>
+  <style>
+    .brand-colors,
+    .tag-colors {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 3rem;
+      row-gap: 5rem;
+      overflow: visible;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .colorCircle {
+      display: block;
+      width: 100px;
+      height: 100px;
+      border-radius: 100%;
+      position: relative;
+    }
+
+    .colorInfo {
+      position: absolute;
+      display: block;
+      width: 100%;
+      top: 100px;
+      line-height: 1.2;
+      text-align: center;
+    }
+
+    .colorInfo p {
+      font-size: 1.2rem;
+      margin: 0;
+    }
+  </style>
   <title>Style Guide</title>
 </head>
 
@@ -139,7 +173,7 @@
       </div>
     </section>
     <section id="color-scheme">
-      <div class="container">
+      <div class="container brand-color-content">
         <div class="container bg-lightGrey"
           style="border: 1px dotted;">
           <h2>Color Scheme</h2>
@@ -148,41 +182,16 @@
           style="border: 1px dotted;">
           <div class="container">
             <h3>Brand Colors</h3>
-            <ul>
-              <li
-                class="bg-midnightBlue text-white">
-                Primary
-                color: midnightBlue</li>
-              <li class="bg-redOrange text-white">
-                Accent color: redOrange</li>
-              <li class="bg-slateBlue text-white">
-                Secondary color: slateBlue</li>
-              <li class="bg-lightGrey">Light color
-              </li>
-              <li class="bg-silver">Silver color
-              </li>
-            </ul>
+            <div class="container brand-colors"
+              id="brand-colors">
+            </div>
           </div>
-          <div class="container">
+          <div
+            class="container tag-color-content">
             <h3>Tag Colors</h3>
-            <ul>
-              <li class="bg-bananaYellow">
-                bananaYellow
-              </li>
-              <li class="bg-burgundy text-white">
-                bg-burgundy
-              </li>
-              <li
-                class="bg-deepSkyBlue text-white">
-                bg-deepSkyBlue
-              </li>
-              <li class="bg-darkOrange">
-                bg-darkOrange
-              </li>
-              <li class="bg-lightSeaGreen">
-                bg-lightSeaGreen
-              </li>
-            </ul>
+            <div class="container tag-colors"
+              id="tag-colors">
+            </div>
           </div>
         </div>
 
@@ -192,6 +201,58 @@
 
   </main>
 
+  <script>
+
+    function createBrandColorBoard() {
+      const brandColorGrid = document.getElementById("brand-colors");
+      const brandColorArr = [
+        { name: "Primary: midnightBlue", color: "#2d3142" },
+        { name: "Accent: redOrange", color: "#f23e16" },
+        { name: "Secondary: slateBlue", color: "#4f5d75" },
+        { name: "Light: lightGrey", color: "#e2e2e2" },
+        { name: "Silver: darkGrey", color: "#bfc0c0" },
+      ]
+      brandColorArr.forEach((color) => {
+        const div = document.createElement("div");
+        div.classList.add("colorCircle");
+        div.setAttribute("data-color", color.color)
+        div.style.backgroundColor = color.color;
+        div.innerHTML = `
+        <div class="colorInfo">
+        <p>${color.name}</p>
+        <p>${color.color}</p>
+      </div>
+        `;
+        brandColorGrid.appendChild(div);
+      })
+    }
+    function createTagColorBoard() {
+      const tagColorGrid = document.getElementById("tag-colors");
+      const tagColorArr = [
+        { name: "bananaYellow", color: "#f2d129" },
+        { name: "burgundy", color: "#8c240d" },
+        { name: "deepSkyBlue", color: "#00bfff" },
+        { name: "darkOrange", color: "#ff8c00" },
+        { name: "lightSeaGreen", color: "#20b2aa" },
+      ]
+      tagColorArr.forEach((color) => {
+        const div = document.createElement("div");
+        div.classList.add("colorCircle");
+        div.setAttribute("data-color", color.color)
+        div.style.backgroundColor = color.color;
+        div.innerHTML = `
+        <div class="colorInfo">
+        <p>${color.name}</p>
+        <p>${color.color}</p>
+      </div>
+        `;
+        tagColorGrid.appendChild(div);
+      })
+    }
+    createBrandColorBoard();
+    createTagColorBoard()
+
+  </script>
 </body>
 
 </html>
