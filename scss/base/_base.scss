@@ -8,7 +8,7 @@ html {
 body {
   height: 100%;
   font-family: $font-titillium, sans-serif;
-  font-size: 1.8rem;
+  font-size: fluid(16px,18px);
   font-weight: 400;
   color: $color-midnightBlue;
 }
@@ -46,7 +46,7 @@ h4 {
   font-size: fluid(18px,24px);
 }
 h5 {
-  font-size: fluid(14px,20px);
+  font-size: fluid(16px,20px);
 }
 h6 {
   font-size: fluid(16px,18px);

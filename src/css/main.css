@@ -55,7 +55,7 @@ html {
 body {
   height: 100%;
   font-family: "Titillium Web", sans-serif;
-  font-size: 1.8rem;
+  font-size: clamp(1.6rem, 0.31vw + 1.5rem, 1.8rem);
   font-weight: 400;
   color: #2d3142;
 }
@@ -97,7 +97,7 @@ h4 {
 }
 
 h5 {
-  font-size: clamp(1.4rem, 0.94vw + 1.1rem, 2rem);
+  font-size: clamp(1.6rem, 0.63vw + 1.4rem, 2rem);
 }
 
 h6 {
