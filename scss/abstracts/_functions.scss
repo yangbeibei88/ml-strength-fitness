@@ -29,9 +29,12 @@ $default-max-bp: 960px;
   @return clamp(#{$min-size-rem}, #{$slope-to-unit}#{$unit} + #{$intercept-rem}, #{$max-size-rem});
 }
 
+// above fluid font function is referenced from: 
+// https://www.smashingmagazine.com/2022/10/fluid-typography-clamp-sass-functions/
+
 // set text color
 @function set-text-color($bg-color) {
-  @if(lightness($bg-color) > 50) {
+  @if(lightness($bg-color) > 55) {
     @return #000;
   } @else {
     @return #fff;

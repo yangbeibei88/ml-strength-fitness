@@ -76,7 +76,7 @@ form select, form input, textarea {
   font-size: clamp(1.4rem, 0.63vw + 1.2rem, 1.8rem);
 }
 
-blockquote {
+blockquote, figcaption {
   font-style: italic;
 }
 
@@ -112,12 +112,16 @@ li, label {
   font-size: clamp(1.4rem, 0.63vw + 1.2rem, 1.8rem);
 }
 
-a {
-  text-decoration: none;
-  color: #2d3142;
+figcaption {
+  font-size: clamp(1.2rem, 0.63vw + 1rem, 1.6rem);
 }
-a:is(:hover) {
+
+a:not(button) {
+  text-decoration: underline;
   color: #F23E16;
+}
+a:not(button):is(:hover, :active) {
+  color: #8C240D;
 }
 
 input, select, textarea {
@@ -464,6 +468,7 @@ details[open] summary {
   padding: 1rem 2rem;
   border-radius: 0.5rem;
   transition: all 0.3s;
+  text-decoration: none;
 }
 
 .btn-main {
@@ -602,6 +607,7 @@ details[open] summary {
   padding: 10px 20px;
   margin: 0 5px;
   transition: 0.3s;
+  text-decoration: none;
 }
 #navbar ul#navLinks a:is(:hover, :visited) {
   background-color: #4F5D75;
@@ -874,6 +880,7 @@ footer p {
 }
 .filterCategory:is(:hover) {
   box-shadow: 0 0.8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
+  transform: scale(0.95);
 }
 
 .category-tag {

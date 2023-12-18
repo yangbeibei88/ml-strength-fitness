@@ -11,6 +11,7 @@
   transition: 0.3s;
   &:is(:hover) {
     box-shadow: 0 0.8rem 1.6rem 0 rgba(0,0,0,0.2);
+    transform: scale(0.95);
   }
 }
 

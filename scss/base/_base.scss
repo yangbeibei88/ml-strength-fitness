@@ -29,7 +29,7 @@ form select, form input, textarea {
   font-size: fluid(14px,18px);
 }
 
-blockquote {
+blockquote, figcaption {
   font-style: italic;
 }
 
@@ -56,16 +56,20 @@ table {
   font-size: fluid(12px,18px);
 }
 
-
 li,label {
   font-size: fluid(14px,18px);
 }
 
-a {
-  text-decoration: none;
-  color: $color-midnightBlue;
-  &:is(:hover) {
-    color: $color-redorange;
+figcaption {
+  font-size: fluid(12px,16px);
+}
+
+a:not(button) {
+  // text-decoration: none;
+  text-decoration: underline;
+  color: $color-redorange;
+  &:is(:hover,:active) {
+    color: $color-burgundy;
   }
 }
 

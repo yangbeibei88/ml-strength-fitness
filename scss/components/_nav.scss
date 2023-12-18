@@ -37,6 +37,7 @@
       padding: 10px 20px;
       margin: 0 5px;
       transition: 0.3s;
+      text-decoration: none;
       &:is(:hover, :visited) {
         background-color: $color-slateBlue;
       }
