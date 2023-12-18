@@ -2,31 +2,6 @@
 /* root colors */
 /* root fonts */
 /* font awesome webfont */
-/* FONT SIZE */
-h1 {
-  font-size: clamp(3rem, 3rem + 0.9vw, 4rem);
-}
-
-h2 {
-  font-size: clamp(2.6rem, 2.6rem + 0.8vw, 3.6rem);
-}
-
-h3 {
-  font-size: clamp(2.2rem, 2.2rem + 0.7vw, 3.2rem);
-}
-
-h4 {
-  font-size: clamp(1.8rem, 1.8rem + 0.6vw, 2.8rem);
-}
-
-h5 {
-  font-size: clamp(1.4rem, 1.4rem + 0.5vw, 2.4rem);
-}
-
-h6 {
-  font-size: clamp(1rem, 1rem + 0.4vw, 2rem);
-}
-
 @font-face {
   font-family: "Saira Semi Condensed";
   src: url("../../assets/fonts/sairasemicondensed-light-webfont.woff2") format("woff2"), url("../../assets/fonts/sairasemicondensed-light-webfont.woff") format("woff");
@@ -92,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p, blockquote {
   font-family: "Titillium Web", sans-serif;
-  font-size: 1.8rem;
+  font-size: clamp(1.6rem, 0.31vw + 1.5rem, 1.8rem);
   margin: 1.2rem 0;
 }
 
@@ -105,8 +80,36 @@ blockquote {
   font-style: italic;
 }
 
-li {
-  font-size: 1.6rem;
+h1 {
+  font-size: clamp(2.8rem, 1.88vw + 2.2rem, 4rem);
+}
+
+h2 {
+  font-size: clamp(2.5rem, 1.09vw + 2.15rem, 3.2rem);
+}
+
+h3 {
+  font-size: clamp(2.2rem, 0.94vw + 1.9rem, 2.8rem);
+}
+
+h4 {
+  font-size: clamp(1.8rem, 0.94vw + 1.5rem, 2.4rem);
+}
+
+h5 {
+  font-size: clamp(1.4rem, 0.94vw + 1.1rem, 2rem);
+}
+
+h6 {
+  font-size: clamp(1.6rem, 0.31vw + 1.5rem, 1.8rem);
+}
+
+table {
+  font-size: clamp(1.2rem, 0.94vw + 0.9rem, 1.8rem);
+}
+
+li, label {
+  font-size: clamp(1.4rem, 0.63vw + 1.2rem, 1.8rem);
 }
 
 a {
