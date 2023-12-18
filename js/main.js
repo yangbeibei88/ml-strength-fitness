@@ -894,6 +894,7 @@ function init() {
 }
 
 document.addEventListener("DOMContentLoaded", init);
+
 if (mobileSize.matches) {
   document.addEventListener("DOMContentLoaded", mobileMenu);
 }
