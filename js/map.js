@@ -69,7 +69,21 @@ async function addClubsMarker() {
             L.geoJSON(feature, { onEachFeature: onEachFeature })
               .addTo(allClubsMap)
               .eachLayer((layer) => layer.openPopup());
-            allClubsMap.zoomIn();
+
+            // set searched club geo to center, zoom 11
+            allClubsMap.setView(
+              Array(
+                feature.geometry.coordinates[1],
+                feature.geometry.coordinates[0]
+              ),
+              11
+            );
+            console.log(
+              Array(
+                feature.geometry.coordinates[1],
+                feature.geometry.coordinates[0]
+              )
+            );
           }
         });
       });

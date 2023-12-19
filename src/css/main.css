@@ -833,6 +833,11 @@ footer p {
   height: 90vh;
   overflow: scroll;
 }
+@media (max-width: 576px) {
+  #clubs .locations-map-wrapper .location-list {
+    height: auto;
+  }
+}
 #clubs .locations-map-wrapper .location-list .club-location-card {
   display: block;
   padding: 1.5rem;

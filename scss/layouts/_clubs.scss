@@ -56,6 +56,9 @@
       padding: 1rem 2rem;
       height: 90vh;
       overflow: scroll;
+      @include breakpoint(max,small) {
+        height: auto;
+      }
       .club-location-card {
         display: block;
         padding: 1.5rem;
