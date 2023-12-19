@@ -54,7 +54,9 @@ async function displayClasses() {
       class="category-tag category-tag-${classObj.class_category.toLowerCase()}">
       ${classObj.class_category}</div>
     <a
-      href="../html/class.html?id=${classObj.class_id}&${classObj.class_name}">
+      href="../html/class.html?classid=${classObj.class_id}&classname=${
+      classObj.class_name
+    }">
       <h5>${classObj.class_name}</h5>
     </a>
   </div>
