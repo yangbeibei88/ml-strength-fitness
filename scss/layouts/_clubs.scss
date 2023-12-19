@@ -1,6 +1,13 @@
 @use '../abstracts' as *;
 /* CLUBS page */
 #clubs {
+    @include breakpoint(max,small) {
+    :target:before {
+      content: "";
+      display: block;
+      height: 256px;
+    }
+  }
   .viewBtnGroup {
     display: none;
     @include breakpoint(max,small) {
@@ -93,4 +100,5 @@
   @include breakpoint(max,small) {
     height: 50dvh;
   }
+
 }

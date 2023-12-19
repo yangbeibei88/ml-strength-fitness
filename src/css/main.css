@@ -779,6 +779,13 @@ footer p {
 }
 
 /* CLUBS page */
+@media (max-width: 576px) {
+  #clubs :target:before {
+    content: "";
+    display: block;
+    height: 256px;
+  }
+}
 #clubs .viewBtnGroup {
   display: none;
 }
