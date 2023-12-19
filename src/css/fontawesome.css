@@ -361,10 +361,6 @@
   transform: scale(-1, -1);
 }
 
-.fa-rotate-by {
-  transform: rotate(var(--fa-rotate-angle, none));
-}
-
 .fa-stack {
   display: inline-block;
   height: 2em;
@@ -10337,6 +10333,10 @@ readers do not read off random characters that represent icons */
 .fas,
 .fa-solid {
   font-weight: 900;
+}
+
+.fa-rotate-by {
+  transform: rotate(var(--fa-rotate-angle, 0));
 }
 
 /*# sourceMappingURL=fontawesome.css.map */
