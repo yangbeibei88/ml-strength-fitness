@@ -72,6 +72,17 @@ form.contact-form {
         top: 0.6rem;
       }
     }
+    @include breakpoint(max, small) {
+      &:not(.agree-privacy-checkbox, .consent-marketing)::after {
+        content: "*";
+        color: $color-redorange;
+        margin-right: 0.5rem;
+        position: absolute;
+        left: 5px;
+        transform: translateY(10px);
+      }
+    }
+
     label:not(.checkbox-text) {
       @include breakpoint(max, small) {
         display: none;
@@ -149,6 +160,15 @@ form.contact-form {
     content: "*";
     color: $color-redorange;
     margin-right: 0.5rem;
+  }
+
+  .required-after::after {
+    content: "*";
+    color: $color-redorange;
+    margin-right: 0.5rem;
+    position: absolute;
+    left: 5px;
+    transform: translateY(10px);
   }
 
   select, textarea {

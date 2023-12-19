@@ -98,3 +98,8 @@
   @extend %icon-shared;
   content: '\f10e';
 }
+.circle-check-green::after {
+  @extend %icon-shared;
+  content: '\f058';
+  color: green;
+}

@@ -645,6 +645,7 @@ function contactFormValidation() {
     const formControl = input.parentElement.parentElement;
     formControl.classList.add("error");
     formControl.classList.remove("success");
+    formControl.classList.remove("circle-check-green");
     const errorMsgDiv = formControl.querySelector(".form-field-error");
     errorMsgDiv.textContent = message;
   }
@@ -653,6 +654,7 @@ function contactFormValidation() {
     const formControl = input.parentElement.parentElement;
     formControl.classList.add("success");
     formControl.classList.remove("error");
+    formControl.classList.add("circle-check-green");
   }
 
   function checkInputRequired(input) {

@@ -375,7 +375,7 @@ details[open] summary {
 }
 
 /* ICONS */
-.quote-right::before, .quote-left::before, .info::before, .arrow-right::after, .filter::before, .search::before, .submit::after, .keyboard::before, .write::before, .question::before, .user::before, .window-close::before, .navbar-hamburger-close::before, .navbar-hamburger-toggler::before, .openhours::before, .email::before, .phone::before, .address::before {
+.circle-check-green::after, .quote-right::before, .quote-left::before, .info::before, .arrow-right::after, .filter::before, .search::before, .submit::after, .keyboard::before, .write::before, .question::before, .user::before, .window-close::before, .navbar-hamburger-close::before, .navbar-hamburger-toggler::before, .openhours::before, .email::before, .phone::before, .address::before {
   display: inline-block;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -458,6 +458,11 @@ details[open] summary {
 
 .quote-right::before {
   content: "\f10e";
+}
+
+.circle-check-green::after {
+  content: "\f058";
+  color: green;
 }
 
 /* BUTTONS */
@@ -988,6 +993,16 @@ form.contact-form .form-control .ff-wrapper .ff-icon {
   top: 0.6rem;
 }
 @media (max-width: 576px) {
+  form.contact-form .form-control:not(.agree-privacy-checkbox, .consent-marketing)::after {
+    content: "*";
+    color: #F23E16;
+    margin-right: 0.5rem;
+    position: absolute;
+    left: 5px;
+    transform: translateY(10px);
+  }
+}
+@media (max-width: 576px) {
   form.contact-form .form-control label:not(.checkbox-text) {
     display: none;
   }
@@ -1045,6 +1060,14 @@ form.contact-form .required::before {
   content: "*";
   color: #F23E16;
   margin-right: 0.5rem;
+}
+form.contact-form .required-after::after {
+  content: "*";
+  color: #F23E16;
+  margin-right: 0.5rem;
+  position: absolute;
+  left: 5px;
+  transform: translateY(10px);
 }
 form.contact-form select, form.contact-form textarea {
   width: 100%;
