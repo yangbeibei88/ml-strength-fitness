@@ -978,10 +978,10 @@ form.contact-form .btn-submit {
 form.contact-form .form-control {
   display: flex;
   flex-direction: column;
+  margin-bottom: 1rem;
 }
 form.contact-form .form-control .ff-wrapper {
   position: relative;
-  margin-top: 0.5rem;
 }
 form.contact-form .form-control .ff-wrapper .ff-icon {
   position: absolute;
@@ -993,17 +993,16 @@ form.contact-form .form-control .ff-wrapper .ff-icon {
   }
 }
 form.contact-form .form-control.agree-privacy-checkbox, form.contact-form .form-control.consent-marketing {
-  display: grid !important;
-  grid-template-columns: 5% 95%;
+  display: flex;
+  flex-direction: row;
   text-align: left !important;
   margin: 0.5rem auto;
 }
 form.contact-form .form-control.agree-privacy-checkbox input[type=checkbox], form.contact-form .form-control.consent-marketing input[type=checkbox] {
   width: 2rem;
 }
-form.contact-form .form-control.agree-privacy-checkbox label, form.contact-form .form-control.consent-marketing label {
-  vertical-align: middle;
-  margin: auto 0;
+form.contact-form .form-control.agree-privacy-checkbox .checkboxlabel-group, form.contact-form .form-control.consent-marketing .checkboxlabel-group {
+  margin: 0;
 }
 form.contact-form .form-control.agree-privacy-checkbox label.checkbox-text, form.contact-form .form-control.consent-marketing label.checkbox-text {
   font-size: 1.5rem;
