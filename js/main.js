@@ -677,8 +677,6 @@ function contactFormValidation() {
     if (input.hasAttribute("required")) {
       if (input.value.trim() === "") {
         showError(input, `${getFieldName(input)} is required`);
-      } else {
-        showSuccess(input);
       }
     }
   }
@@ -724,18 +722,40 @@ function contactFormValidation() {
   function checkInputLength(input) {
     const inputMinlength = +input.getAttribute("minlength");
     const inputMaxlength = +input.getAttribute("maxlength");
+    // if (input.validity.valueMissing) {
+    //   showError(input, `${getFieldName(input)} is required`);
+    // } else if (input.validity.tooShort) {
+    //   showError(
+    //     input,
+    //     `${getFieldName(
+    //       input
+    //     )} must be between at least ${inputMinlength} characters`
+    //   );
+    // } else if (input.validity.tooLong) {
+    //   showError(
+    //     input,
+    //     `${getFieldName(input)} must be maximum ${inputMaxlength} characters`
+    //   );
+    // }
     if (input.hasAttribute("required") && input.value.trim() === "") {
       showError(input, `${getFieldName(input)} is required`);
     } else if (
       inputMinlength > 0 &&
       input.value.trim().length < inputMinlength
     ) {
-      showError(
-        input,
-        `${getFieldName(
-          input
-        )} must be between ${inputMinlength} and ${inputMaxlength} characters long`
-      );
+      if (inputMaxlength) {
+        showError(
+          input,
+          `${getFieldName(
+            input
+          )} must be between ${inputMinlength} and ${inputMaxlength} characters long`
+        );
+      } else {
+        showError(
+          input,
+          `${getFieldName(input)} must be at least ${inputMinlength} characters`
+        );
+      }
     } else if (input.value.trim().length > inputMaxlength) {
       showError(
         input,
