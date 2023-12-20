@@ -732,12 +732,11 @@ function contactFormValidation() {
     ) {
       showError(
         input,
-        `${getFieldName(input)} must be at least ${inputMinlength} characters`
+        `${getFieldName(
+          input
+        )} must be between ${inputMinlength} and ${inputMaxlength} characters long`
       );
-    } else if (
-      input.getAttribute("maxlength") > 0 &&
-      input.value.trim().length > inputMaxlength
-    ) {
+    } else if (input.value.trim().length > inputMaxlength) {
       showError(
         input,
         `${getFieldName(input)} must be maximum ${inputMaxlength} characters`
