@@ -72,16 +72,6 @@ form.contact-form {
         top: 0.6rem;
       }
     }
-    @include breakpoint(max, small) {
-      &:not(.agree-privacy-checkbox, .consent-marketing)::after {
-        content: "*";
-        color: $color-redorange;
-        margin-right: 0.5rem;
-        position: absolute;
-        left: 5px;
-        transform: translateY(10px);
-      }
-    }
 
     label:not(.checkbox-text) {
       @include breakpoint(max, small) {
@@ -93,8 +83,6 @@ form.contact-form {
   .form-control {
     &.agree-privacy-checkbox,
     &.consent-marketing {
-      // display: grid!important;
-      // grid-template-columns: 5% 95%;
       display: flex;
       flex-direction: row;
       text-align: left!important;
@@ -135,7 +123,7 @@ form.contact-form {
     }
     .form-field-error {
       // width: 100%;
-      visibility: hidden;
+      display: none;
       padding: 0;
       font-size: 1.2rem;
       background-color: $color-burgundy;
@@ -151,7 +139,7 @@ form.contact-form {
         border-color: red;
       }
       .form-field-error {
-        visibility: visible;
+        display: block;
       }
     }
   }
@@ -169,6 +157,10 @@ form.contact-form {
     position: absolute;
     left: 5px;
     transform: translateY(10px);
+    display: none;
+    @include breakpoint(max,small) {
+      display: block;
+    }
   }
 
   select, textarea {

@@ -643,18 +643,34 @@ function contactFormValidation() {
 
   function showError(input, message) {
     const formControl = input.parentElement.parentElement;
-    formControl.classList.add("error");
-    formControl.classList.remove("success");
-    formControl.classList.remove("circle-check-green");
     const errorMsgDiv = formControl.querySelector(".form-field-error");
+    formControl.classList.add("error");
     errorMsgDiv.textContent = message;
+    formControl.classList.remove("success");
+    // formControl.classList.remove("circle-check-green");
+    formControl
+      .querySelector("label")
+      .classList.replace("circle-check-green", "required");
+    formControl.classList.replace(
+      "circle-check-green-mobile",
+      "required-after"
+    );
+    // formControl.querySelector("label").className = "required";
   }
 
   function showSuccess(input) {
     const formControl = input.parentElement.parentElement;
-    formControl.classList.add("success");
     formControl.classList.remove("error");
-    formControl.classList.add("circle-check-green");
+    formControl.classList.add("success");
+    // formControl.classList.add("circle-check-green");
+    // formControl.querySelector("label").className = "circle-check-green";
+    formControl
+      .querySelector("label")
+      .classList.replace("required", "circle-check-green");
+    formControl.classList.replace(
+      "required-after",
+      "circle-check-green-mobile"
+    );
   }
 
   function checkInputRequired(input) {
@@ -734,19 +750,45 @@ function contactFormValidation() {
   contactForm.addEventListener("submit", (e) => {
     for (let i = 0; i < contactFormElements.length - 1; i++) {
       const formEl = contactFormElements[i];
-      if (
-        (formEl.tagName === "INPUT" && formEl.type === "text") ||
-        formEl.tagName === "TEXTAREA"
-      ) {
-        checkInputRequired(formEl);
-        checkInputLength(formEl);
-      } else if (formEl.tagName === "INPUT" && formEl.type === "checkbox") {
-        checkCheckboxRequired(formEl);
-      } else if (formEl.tagName === "SELECT") {
-        checkSelectRequired(formEl);
+      if (formEl.tagName === "INPUT") {
+        switch (formEl.type) {
+          case "tel":
+            checkInputRequired(formEl);
+            checkPhonenumber(ffPhonenumber);
+            break;
+          case "email":
+            checkInputRequired(formEl);
+            checkEmail(ffEmail);
+            break;
+          case "checkbox":
+            checkCheckboxRequired(formEl);
+            break;
+          default:
+            checkInputRequired(formEl);
+            checkInputLength(formEl);
+            break;
+        }
+      } else {
+        switch (formEl.tagName) {
+          case "TEXTAREA":
+            checkInputRequired(formEl);
+            checkInputLength(formEl);
+            break;
+          case "SELECT":
+            checkSelectRequired(formEl);
+            break;
+        }
       }
-      checkEmail(ffEmail);
-      checkPhonenumber(ffPhonenumber);
+      // if (formEl.tagName === "INPUT" || formEl.tagName === "TEXTAREA") {
+      //   checkInputRequired(formEl);
+      //   checkInputLength(formEl);
+      // } else if (formEl.tagName === "INPUT" && formEl.type === "checkbox") {
+      //   checkCheckboxRequired(formEl);
+      // } else if (formEl.tagName === "SELECT") {
+      //   checkSelectRequired(formEl);
+      // }
+      // checkEmail(ffEmail);
+      // checkPhonenumber(ffPhonenumber);
 
       if (!formEl.validity.valid) {
         e.preventDefault();

@@ -375,7 +375,7 @@ details[open] summary {
 }
 
 /* ICONS */
-.circle-check-green::after, .quote-right::before, .quote-left::before, .info::before, .arrow-right::after, .filter::before, .search::before, .submit::after, .keyboard::before, .write::before, .question::before, .user::before, .window-close::before, .navbar-hamburger-close::before, .navbar-hamburger-toggler::before, .openhours::before, .email::before, .phone::before, .address::before {
+.circle-check-green-mobile::after, .circle-check-green::before, .quote-right::before, .quote-left::before, .info::before, .arrow-right::after, .filter::before, .search::before, .submit::after, .keyboard::before, .write::before, .question::before, .user::before, .window-close::before, .navbar-hamburger-close::before, .navbar-hamburger-toggler::before, .openhours::before, .email::before, .phone::before, .address::before {
   display: inline-block;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -460,9 +460,25 @@ details[open] summary {
   content: "\f10e";
 }
 
-.circle-check-green::after {
+.circle-check-green::before {
   content: "\f058";
   color: green;
+}
+
+.circle-check-green-mobile::after {
+  content: "\f058";
+  color: green;
+  margin: 0;
+  position: absolute;
+  left: 2px;
+  font-size: 1.3rem;
+  transform: translateY(10px);
+  display: none;
+}
+@media (max-width: 576px) {
+  .circle-check-green-mobile::after {
+    display: inline-block;
+  }
 }
 
 /* BUTTONS */
@@ -1000,16 +1016,6 @@ form.contact-form .form-control .ff-wrapper .ff-icon {
   top: 0.6rem;
 }
 @media (max-width: 576px) {
-  form.contact-form .form-control:not(.agree-privacy-checkbox, .consent-marketing)::after {
-    content: "*";
-    color: #F23E16;
-    margin-right: 0.5rem;
-    position: absolute;
-    left: 5px;
-    transform: translateY(10px);
-  }
-}
-@media (max-width: 576px) {
   form.contact-form .form-control label:not(.checkbox-text) {
     display: none;
   }
@@ -1046,7 +1052,7 @@ form.contact-form .form-control.success input, form.contact-form .form-control.s
   border-color: green;
 }
 form.contact-form .form-control .form-field-error {
-  visibility: hidden;
+  display: none;
   padding: 0;
   font-size: 1.2rem;
   background-color: #8C240D;
@@ -1061,7 +1067,7 @@ form.contact-form .form-control.error input, form.contact-form .form-control.err
   border-color: red;
 }
 form.contact-form .form-control.error .form-field-error {
-  visibility: visible;
+  display: block;
 }
 form.contact-form .required::before {
   content: "*";
@@ -1075,6 +1081,12 @@ form.contact-form .required-after::after {
   position: absolute;
   left: 5px;
   transform: translateY(10px);
+  display: none;
+}
+@media (max-width: 576px) {
+  form.contact-form .required-after::after {
+    display: block;
+  }
 }
 form.contact-form select, form.contact-form textarea {
   width: 100%;

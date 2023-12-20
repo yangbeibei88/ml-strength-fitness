@@ -98,8 +98,22 @@
   @extend %icon-shared;
   content: '\f10e';
 }
-.circle-check-green::after {
+.circle-check-green::before {
   @extend %icon-shared;
   content: '\f058';
   color: green;
+}
+.circle-check-green-mobile::after {
+  @extend %icon-shared;
+  content: '\f058';
+  color: green;
+  margin: 0;
+  position: absolute;
+  left: 2px;
+  font-size: 1.3rem;
+  transform: translateY(10px);
+  display: none;
+  @include breakpoint(max,small) {
+    display: inline-block;
+  }
 }
