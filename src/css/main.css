@@ -1296,8 +1296,18 @@ form.contact-form .formfield-tooltip::after {
   padding: 1rem;
 }
 #club-contact .club-gallery-container img {
-  max-width: 100%;
-  height: auto;
+  object-fit: cover;
+  height: 400px;
+}
+@media (max-width: 768px) {
+  #club-contact .club-gallery-container img {
+    max-height: 300px;
+  }
+}
+@media (max-width: 576px) {
+  #club-contact .club-gallery-container img {
+    max-height: 250px;
+  }
 }
 
 #club-timetable table {

@@ -23,8 +23,14 @@
     white-space: nowrap;
     padding: 1rem;
     img {
-      max-width: 100%;
-      height: auto;
+      object-fit: cover;
+      height: 400px;
+      @include breakpoint(max,medium) {
+        max-height: 300px;
+      }
+      @include breakpoint(max,small) {
+        max-height: 250px;
+      }
     }
   }
 }
