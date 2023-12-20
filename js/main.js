@@ -703,6 +703,8 @@ function contactFormValidation() {
       /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     if (re.test(input.value)) {
       showSuccess(input);
+    } else if (input.validity.valueMissing) {
+      showError(input, "Email is required");
     } else {
       showError(input, "Email is invalid");
     }
@@ -712,8 +714,10 @@ function contactFormValidation() {
     const re = /^0[2-478]\d{8}$/;
     if (re.test(input.value)) {
       showSuccess(input);
+    } else if (input.validity.valueMissing) {
+      showError(input, "PhoneNumber is required");
     } else {
-      showError(input, "Phone number is invalid");
+      showError(input, "PhoneNumber is invalid");
     }
   }
 
