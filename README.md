@@ -1,11 +1,22 @@
-# ML Strength Website Project
+# ML Strength
 
 ## Overview
-This project is about developing a 5-page website for ML Strength, a fitness business that have five clubs in Brisbane, Ashgrove, Chermside, Graceville, and Westlake.
+ML strength is a fitness business that have five clubs in Brisbane, Ashgrove, Chermside, Graceville, and Westlake. The website is built with HTML, CSS, Javascript to showcase classes and clubs.
 
-The website is deployed on Netlify for easy HTML validation and web accessibility validation during development, access to the site from the below link:
+## Features
+- Fetch data from json file
+- Frontend Javascript form validation
+- Compiled scss to css
+- Customised LeaftLet map
+- Enabled PostCSS Autoprefixer
+- Mobile responsive
 
-https://dulcet-semifreddo-e54283.netlify.app/
+## Live Demo
+
+Check out the live site [ML Strength](https://ml-strength.beibeiyang.dev/)
+
+[![ML Strength](screenshot.png)](https://ml-strength.beibeiyang.dev/)
+
 
 ## Site Architecture
 - root:
@@ -31,10 +42,10 @@ https://dulcet-semifreddo-e54283.netlify.app/
 
 
 ## Built With
-This project was built with Vanilla HTML, CSS and Javascript.
-
-## Dev Tools
-Dev Tools used in this project include node.js, sass, and postcss's autoprefixer
+- html, css, Javascript
+- SASS
+- PostCSS Autoprefixer
+- Leaflet
 
 ### SASS
 SASS is a css compiler. All styling work were done in scss folder.
@@ -84,7 +95,7 @@ fontawesome imported from [node_modules/@fontawesome](./node_modules/@fortawesom
 Leaflet imported from [node_modules/leaflet](./node_modules/leaflet/) to [assets/leaflet](./assets/leaflet/)
 
 ## License
-TAFE Queensland ICTWEB519_520_AT3
+Distributed under the MIT License. See LICENSE.md for more information.
 
 ## Contact
-- Beibei Yang (474326484), beibeiyang88@hotmail.com
+- Beibei Yang (474326484), [beibeiyang88@hotmail.com](mailto:beibeiyang88@hotmail.com)

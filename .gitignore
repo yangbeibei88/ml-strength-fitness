@@ -1,1 +1,8 @@
 node_modules
+csv2json.js
+src/data/
+data/*csv
+data/*xlsx
+html/test.html
+.vscode
+dist
