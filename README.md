@@ -95,7 +95,7 @@ fontawesome imported from [node_modules/@fontawesome](./node_modules/@fortawesom
 Leaflet imported from [node_modules/leaflet](./node_modules/leaflet/) to [assets/leaflet](./assets/leaflet/)
 
 ## License
-See LICENSE.md for more information.
+The project is licensed under [Apache license 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt).
 
 ## Contact
-- Beibei Yang (474326484), [beibeiyang88@hotmail.com](mailto:beibeiyang88@hotmail.com)
+- Beibei Yang, [beibeiyang88@hotmail.com](mailto:beibeiyang88@hotmail.com)
